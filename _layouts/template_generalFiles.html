@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<title>{{ page.title }}</title>
+
+<meta charset="utf-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<meta name="Description" content="Demo website to show transforming of Markdown files, with Liquid variables, through the Jekyll static site generator">
+
+<link rel="stylesheet" type="text/css" href="./../assets/css/style.css">
+
+</head>
+
+<body>
+
+<header>
+<p><a href = "https://aninditabasu.github.io/pi-projects/">Github</a></p>
+<hr/>
+</header>
+
+	<main>
+      <div>
+        {{ content }}
+      </div>
+    </main>
+
+<footer>
+{% include footer.md %}
+</footer>
+
+</body>
+
+</html>

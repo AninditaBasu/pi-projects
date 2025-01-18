@@ -1,8 +1,11 @@
 ---
-nav_order: 1
+layout: template_indexFile
+title: Pi Projects: Home
 ---
 
-# {{site.title}}
+# {{page.title}}
 
-{{site.description}}
+## Tutorials
+
+-  [Digital photo frame](topics/photo_frame.md)
 
