@@ -1,15 +1,16 @@
-h1, h2, h3, h4, h5, h6 {color:#9E3942;}
+h1, h2, h3, h4, h5, h6 {color:#5b2c6f;}
 
 hr { 
   display: block;
   border-width: 1px;
-  border-color: lightblue;
+  border-color: #2c3e50;
 } 
 
 header {
   font-family: Lucida Console, Verdana, sans-serif;
   color: #bdc3c7;
-  font-size: 12px;
+  font-size: 24px;
+  padding: 20px;
   background-color: #2c3e50;
 }
 
@@ -49,28 +50,33 @@ pre {
 } 
 
 table {
-  border: 1px solid black;
+  border: 1px solid #2c3e50;
   border-collapse: collapse;
   background-color: #f1f1f1;
   padding: 2px;
   font-family: monospace;
 }
 th {
-  border: 1px solid black;
+  border: 1px solid #2c3e50;
   border-collapse: collapse;
   background-color: #f1f1f1;
   padding: 2px;
   color: crimson;
 }
 td {
-  border: 1px solid black;
+  border: 1px solid #2c3e50;
   border-collapse: collapse;
   background-color: #f1f1f1;
-padding: 2px;
+  padding: 2px;
 }
 
 body {
 	line-height: 190%;
 	padding-left: 50px;
-	font-family: Verdana, Helvetica;
+	font-family: Lucida Console, Verdana, sans-serif;
+	background-color: #f4ecf7;
 }
+
+* {
+    font-family: Lucida Console, Verdana, sans-serif;
+  }

@@ -1,3 +1,3 @@
 <hr/>
 
-<p>&copy; Anindita Basu 2025</p>
+<p>&copy; Anindita Basu, 2025</p>

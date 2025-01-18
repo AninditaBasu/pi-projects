@@ -1,6 +1,7 @@
 ---
 layout: template_generalFiles
 title: Digital photo frame
+description: Pull photos from a local storage (SD card, USB drive) or cloud storage, and display them with a time lag.
 ---
 
 # {{ page.title }}
@@ -27,6 +28,12 @@ To set up the Raspberry Pi:
 After the Raspberry Pi is set up and the photo frame is working, you'll no longer need the laptop (or desktop). You can also choose to run the photo frame in an isolated manner, in which case you won't need the internet connection either. 
 
 ## Set up the Raspberry Pi
+
+This is what I started with.
+
+| Front view | Back view |
+| ---------- | --------- |
+| ![View from the front](/images/frame_front.jpeg "View from the front") |![View from the back](/images/frame_back.jpeg "View from the back") |
 
 
 
