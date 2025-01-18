@@ -6,9 +6,12 @@ description: Pull photos from a local storage (SD card, USB drive) or cloud stor
 
 # {{ page.title }}
 
-![View from the front](../images/frame_front.jpeg "View from the front")
+Do you see the microSD card near the center of the image? 
 
-Do you see the microSD card near the center of the image? The operating system will be downloaded on to that card, and then inserted into the microSD slot of the Raspberry Pi. That's what will get this little computer up and running.
+<img src="../images/frame_front.jpeg" width="35%" />
+
+The operating system will be downloaded on to that card, and then inserted into the microSD slot of the Raspberry Pi. That's what will get this little computer up and running.
+
 
 The steps to download the operating system are:
 
