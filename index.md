@@ -5,5 +5,6 @@ title: Pi Projects Home
 
 ## Tutorials
 
--  [Digital photo frame](topics/photo_frame.md)
+-  [Build a digital photo frame](topics/photo_frame.md)
+-  Simulate a chiming townclock
 

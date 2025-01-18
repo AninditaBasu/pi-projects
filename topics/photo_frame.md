@@ -12,7 +12,7 @@ In this tutorial, I show you how to use a Raspberry Pi 3B+ computer and a Raspbe
 
 ## Materials required
 
-For the frame:
+For the photo frame:
 
 -  A Raspberry Pi 3B+ computer. This little computer board will hold the code that displays the images.
 -  A Raspberry Pi 7" official touch display. This screen is where the images are displayed. You can choose to use any other display screen that can be used with a Raspberry Pi 3B+, but I used the official display because it's a plug-and-play set up.
@@ -27,55 +27,20 @@ To set up the Raspberry Pi:
 -  A laptop or desktop, with a microSD port. If your machine does not have this port, you need a microSD card reader that you can plug into your machine.
 -  An internet connection.
 
-After the Raspberry Pi is set up and the photo frame is working, you'll no longer need the laptop (or desktop). You can also choose to run the photo frame in an isolated manner, in which case you won't need the internet connection either. 
+After the Raspberry Pi is set up and the photo frame is working, you'll no longer need the laptop (or desktop). You can also choose to run the photo frame in an isolated manner, in which case you won't need the internet connection either.
 
-## Set up the Raspberry Pi
+## Steps
 
-This is what I started with.
+To build the photo frame, you must first set up the Raspberry Pi, connect it to the touch display, and then write a script to read and show your image files.
 
-| Front view | Back view |
-| ---------- | --------- |
-| ![View from the front](../images/frame_front.jpeg "View from the front") |![View from the back](../images/frame_back.jpeg "View from the back") |
+Here are the step-by-step guides for these tasks:
 
-To get this little computer up and running, you must:
+1.  [Attach the display screen to the Raspberry Pi](pi_3b_attach_display.md).
+1.  (Optional) [Fix the heat sinks on the Raspberry Pi](pi_3b_attach_heatsink.md).
+1.  [Install an operating system on the Raspberry Pi](pi_3b_install_os.md).
+1.  (Optional) If you don't have an external keyboard and mouse, set up Pi Connect so that you can control the Raspberry Pi from your laptop or desktop.
+1.  Write the code for pulling and displaying the image files
 
--  Attach the display screen to the Raspberry Pi.
--  Install an operating system in the Raspberry Pi.
--  (Optional) If you don't have an external keyboard and mouse, set up Pi Connect so that you can control the Raspberry Pi from your laptop or desktop.
-
-### Attach the display screen
-
-The Raspberry Pi is what they call an SBC (a single board computer). It has neither a screen where you can see the output of your commands, nor a keyboard through which you can issue commands. It is just a barebones computer, with no peripheral devices such as keyboard, mouse, monitor, speaker, or microphone. To use a Raspberry Pi as a computer, you must manually attach these peripherals to it. In this tutorial, you're building a photo frame, so the barest minimum peripheral device that you need is a screen.
-
-To mount the display screen on to the computer board, you loosen the four screws at the four ends of the board at the back of the frame, place the Raspberry Pi on to it, and put the screws back in place. You then connect these two objects by means of two wires (red and black) and a cable (the white straight strip). You don't need the shiny curved strip also shown in the picture; it came as standard packaging with the display and is used in Raspberry Pi 4 models. The model being used here is Raspberry Pi 3B+, though, so the straight white strip is the one to use.
-
-How to attach the display screen to the computer board is explained well in this YouTube video: 
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/SyhJctufiRI?si=Hv3bjPuczohvv8ES" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
-If you'd rather read some written instructions rather than watch a video, see this official guide from the good folks at Raspberry Org: [Touch Display](https://www.raspberrypi.com/documentation/accessories/display.html).
-
-#### (Optional) Attach the heat sinks
-
-After the display screen is mounted on the computer board, affix the heat sinks to the board. The three small corrugared squares that you see in the bottom quadrant of the images are the ehat sinks. A Raspberry Pi Model 3B+ needs only two of those. To attach them to the CPU chip and the network chip, you peel off the adhesive strip at the back of the heat sink, and press it ever so slightly on to the chips on the Pi board. How to do so is shown in this YouTube video:
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Xg5n56x9Y7A?si=tw5MF9EhXMR4aG-e" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
-### Install an operating system
-
-Do you see the microSD card near the center of the image? The operating system will be downloaded on to that card, and then inserted into the microSD slot of the Raspberry Pi.
-
-The steps to download the operating system are:
-
-1.  
-
-## Write and test the code
-
-```Python
-print("Frames and Shells")
-```
-
-## Refine
 
 
 
