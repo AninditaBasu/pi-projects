@@ -1,6 +1,6 @@
 ---
 layout: template_indexFile
-title: Pi Projects: Home
+title: Pi Projects Home
 ---
 
 # {{page.title}}
