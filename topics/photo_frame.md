@@ -15,10 +15,11 @@ In this tutorial, I show you how to use a Raspberry Pi 3B+ computer and a Raspbe
 For the frame:
 
 -  A Raspberry Pi 3B+ computer. This little computer board will hold the code that displays the images.
--  A Raspberry Pi 7" official touch display. This screen is where the images are displayed.
+-  A Raspberry Pi 7" official touch display. This screen is where the images are displayed. You can choose to use any other display screen that can be used with a Raspberry Pi 3B+, but I used the official display because it's a plug-and-play set up.
 -  A Raspberry Pi official power adapter. Theoretically, any adapter with a USB-C cable that can plug into the Raspberry should work fine. In practice, it's better to get the official power adapter because it's been tested to deliver the exact power that the Raspberry Pi needs (which is 3A).
 -  A microSD card. This tiny card will contain the operating system that your Raspberry Pi will run on.
 -  A USB drive. This flash drive will contain your images.
+-  A mouse and a keyboard. These two things are optional, because you can use your laptop keyboard and touchpad too to issue commands to the Raspberry Pi.
 
 To set up the Raspberry Pi:
 
@@ -33,9 +34,22 @@ This is what I started with.
 
 | Front view | Back view |
 | ---------- | --------- |
-| ![View from the front](/images/frame_front.jpeg "View from the front") |![View from the back](/images/frame_back.jpeg "View from the back") |
+| ![View from the front](./images/frame_front.jpeg "View from the front") |![View from the back](./images/frame_back.jpeg "View from the back") |
 
+To get this little computer up and running, you must:
 
+-  Install an operating system in the Raspberry Pi.
+-  (Optional) If you don't have an external keyboard and mouse, set up Pi Connect so that you can control the Raspberry Pi from your laptop or desktop.
+
+Do you see the microSD card near the center of the image? 
+
+## Write and test the code
+
+```Python
+print("Frames and Shells")
+```
+
+## Refine
 
 
 
