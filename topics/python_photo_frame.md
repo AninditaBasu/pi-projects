@@ -11,5 +11,5 @@ A digital photo frame reads the image files from a storage device, and displays 
 The operating system that you installed on the Raspberry Pi already includes Python, as well as an integrated development environment (IDE) that makes it easier for you to write, run, and edit Python programs. This IDE is the Thonny IDE. You'll use Thonny to write the photo frame program.
 
 ```python
-{% include _includes/pyscript_photo_frame.py %}
+{% include_relative _includes/pyscript_photo_frame.py %}
 ```
