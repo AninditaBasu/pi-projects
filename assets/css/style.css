@@ -72,7 +72,8 @@ td {
 
 body {
 	line-height: 190%;
-	padding-left: 50px;
+	padding-left: 20px;
+	padding-right: 20px;
 	font-family: Lucida Console, Verdana, sans-serif;
 	background-color: #f4ecf7;
 }
@@ -80,3 +81,11 @@ body {
 * {
     font-family: Lucida Console, Verdana, sans-serif;
   }
+
+.nav {
+  list-style-type: none;
+}
+
+.nav li {
+  display: inline-block;
+}

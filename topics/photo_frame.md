@@ -8,7 +8,7 @@ description: Pull photos from a local storage (SD card, USB drive) or cloud stor
 
 A digital photo frame is an LED device that can display pictures. It's similar to an LCD TV, inasmuch as you can plug in a USB flash drive to the TV's port and view the pictures. A photo frame is, however, not as large as a typical TV. Quite a few digital frames also have speakers, just like TVs do, so that you can view movie clips on it as well. Unlike a TV, where you must scroll through the pictures manually, a digital photo frame can be configured to display pictures in a continuous loop, advancing to the next picture after a specified time period.
 
-In this tutorial, I show you how to use a Raspberry Pi 3B+ computer and a Raspberry Pi Touch Display to make a digital photo frame. Along the way, I explain how to set up a headless Raspberry Pi computer, connect it to a touch display, and then run Python on it.
+In this tutorial, I show you how to use a Raspberry Pi 3B+ computer and a Raspberry Pi Touch Display to make a digital photo frame. Along the way, I explain how to set up a headless Raspberry Pi computer, connect it to a touch display, and then run Python on it. It doesn't matter if you don't know Python, because I'll provide the entire code for you to copy and use. If you do know Python, you can tweak the code to include the enhancements that I'll suggest at the end of the tutorial.
 
 <hr/>
 
@@ -33,15 +33,15 @@ After the Raspberry Pi is set up and the photo frame is working, you'll no longe
 
 ## Steps
 
-To build the photo frame, you must first set up the Raspberry Pi, connect it to the touch display, and then write a script to read and show your image files.
+To build the photo frame, you must first set up the Raspberry Pi, connect it to the touch display, and then write a script to read and show the files in your photo collection.
 
 Here are the step-by-step guides for these tasks:
 
-1.  [Attach the display screen to the Raspberry Pi](pi_3b_attach_display.md).
-1.  (Optional) [Fix the heat sinks on the Raspberry Pi](pi_3b_attach_heatsink.md).
-1.  [Install an operating system on the Raspberry Pi](pi_3b_install_os.md).
-1.  (Optional) If you don't have an external keyboard and mouse, set up Pi Connect so that you can control the Raspberry Pi from your laptop or desktop.
-1.  [Write the code](python_photo_frame.md) for pulling and displaying the image files.
+1.  [Attach the display screen](pi_3b_attach_display.md) to the Raspberry Pi.
+1.  (Optional) [Fix the heat sinks](pi_3b_attach_heatsink.md) on the Raspberry Pi.
+1.  [Install an operating system](pi_3b_install_os.md) on the Raspberry Pi.
+1.  (Optional) If you don't have an external keyboard and mouse, [set up Pi Connect](pi_piconnect.md) so that you can control the Raspberry Pi from your laptop or desktop.
+1.  [Write the Python code](python_photo_frame.md) for pulling and displaying the photos.
 
 
 

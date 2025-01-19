@@ -23,4 +23,7 @@ Here's an YouTube video that shows you the steps in detail:
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Xg5n56x9Y7A?si=tw5MF9EhXMR4aG-e" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-After the heat sinks are in place, [install an operating system](pi_3b_install_os.md) on your Raspberry Pi.
+After the heat sinks are in place:
+
+-  If you already have an external keyboard and mouse, [install an operating system](pi_3b_install_os.md) on your Raspberry Pi.
+-  If you don't have an external keyboard and mouse (or if you want to do this step anyway because there's no harm if you do), [set up Pi Connect](pi_piconnect.md).
