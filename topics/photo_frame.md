@@ -10,6 +10,8 @@ A digital photo frame is an LED device that can display pictures. It's similar t
 
 In this tutorial, I show you how to use a Raspberry Pi 3B+ computer and a Raspberry Pi Touch Display to make a digital photo frame. Along the way, I explain how to set up a headless Raspberry Pi computer, connect it to a touch display, and then run Python on it.
 
+<hr/>
+
 ## Materials required
 
 For the photo frame:
@@ -24,10 +26,10 @@ For the photo frame:
 
 To set up the Raspberry Pi:
 
--  A laptop or desktop, with a microSD port. If your machine does not have this port, you need a microSD card reader that you can plug into your machine.
+-  A laptop or desktop, with a microSD port. If your laptop (or desktop) does not have this port, you need a microSD card reader that you can plug into laptop (or desktop).
 -  An internet connection.
 
-After the Raspberry Pi is set up and the photo frame is working, you'll no longer need the laptop (or desktop). You can also choose to run the photo frame in an isolated manner, in which case you won't need the internet connection either.
+After the Raspberry Pi is set up and the photo frame is working, you'll no longer need the laptop (or desktop). Further, you can choose to run the photo frame in an isolated manner, not connected to any network, in which case you won't need the internet connection either.
 
 ## Steps
 
@@ -39,7 +41,7 @@ Here are the step-by-step guides for these tasks:
 1.  (Optional) [Fix the heat sinks on the Raspberry Pi](pi_3b_attach_heatsink.md).
 1.  [Install an operating system on the Raspberry Pi](pi_3b_install_os.md).
 1.  (Optional) If you don't have an external keyboard and mouse, set up Pi Connect so that you can control the Raspberry Pi from your laptop or desktop.
-1.  Write the code for pulling and displaying the image files
+1.  [Write the code](python_photo_frame.md) for pulling and displaying the image files.
 
 
 
