@@ -40,7 +40,7 @@ Here are the step-by-step guides for these tasks:
 1.  [Attach the display screen](pi_3b_attach_display.md) to the Raspberry Pi.
 1.  (Optional) [Fix the heat sinks](pi_3b_attach_heatsink.md) on the Raspberry Pi.
 1.  [Install an operating system](pi_3b_install_os.md) on the Raspberry Pi.
-1.  (Optional) If you don't have an external keyboard and mouse, [set up Pi Connect](pi_piconnect.md) so that you can control the Raspberry Pi from your laptop or desktop.
+1.  (Optional) If you don't have an external keyboard and mouse, [set up Raspberry Pi Connect](pi_piconnect.md) so that you can control the Raspberry Pi from your laptop or desktop.
 1.  [Write the Python code](python_photo_frame.md) for pulling and displaying the photos.
 
 

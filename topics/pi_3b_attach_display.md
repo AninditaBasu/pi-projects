@@ -14,7 +14,7 @@ For building my photo frame, these are the materials I used. Your materials look
 
 | Front view | Back view |
 | ---------- | --------- |
-| <img src="../images/frame_front.jpeg" width="45%" /> |<img src="../images/frame_back.jpeg" width="45%" /> |
+| <p style="text-align:center;"><img src="../images/frame_front.jpeg" width="45%" /></p> | <p style="text-align:center;"><img src="../images/frame_back.jpeg" width="45%" /></p> |
 
 Notice the left side of the images. At the top left quadrant is the Raspberry Pi board. At the bottom left is the power supply, the heat sinks, and the microSD card. These objects, when put together, constitute a standalone Raspberry Pi computer that you can use to do...stuff. Like building a digital photo frame.
 

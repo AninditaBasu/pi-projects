@@ -10,34 +10,35 @@ A digital photo frame reads photo files from a storage device, and displays them
 
 The operating system that you installed on the Raspberry Pi already includes Python, as well as an integrated development environment (IDE) that makes it easier for you to write, run, and edit Python programs. This IDE is the Thonny IDE. You'll use Thonny to write the photo frame program.
 
-1.  Switch on the Raspberry Pi. If you're 
+1.  Switch on the Raspberry Pi. If you're [using Raspberry Pi Connect](pi_piconnect.md), wait for a few seconds till the green light stops flashing on the Pi board, and then connect to the Pi through screen sharing.
 1.  Update the operating system by running the following command: `sudo apt-get update`.
-1.  Upgrade all of the installed packages by running the following command: `sudo apt-get upgrade`. 
+1.  Upgrade all of the installed packages by running the following command: `sudo apt-get upgrade`.
+1.  Open Thonny by clicking the Raspberry Pi icon near the top left, and then clicking **Programming > Thonny**.
+1.   
 
 <hr/>
 
 ## The code
 
 ```python
-{% highlight python linenos %}
 {% include pyscript_photo_frame.py %}
-{% endhighlight %}
 ```
 
-> **Note**: The line numbers are for reference only, and won't be copied when you copy the code. You can also [download the raw Python file](../_includes/pyscript_photo_frame.py).
+> You can also [download the raw Python file](https://raw.githubusercontent.com/AninditaBasu/pi-projects/refs/heads/main/_includes/pyscript_photo_frame.py).
 
-## The code, explained
+## The explanation
 
 
 <hr/>
 
 Now that your digital photo frame is working, consider the following enhancements:
 
+-  Disable the screen blanking function of the Raspberry Pi. The screen can turn completely black after a period of inactivity. This means, if you start the Python program and then leave it on to loop through your pictures continuously, what will happen is that the screen will eventually turn blank. The Pi computer is still on, and the Python program is still running, but the screen is black because of inactivity. To prevent this from happening, [disable screen blanking](https://raspberrytips.com/disable-sleep-mode-raspberry-pi/).
 -  Add a touch button to stop the Python script. You might want to stop the script in the following situations:
     -  To power down the Raspberry Pi.
 	-  To load more photos on to the flash drive, in which case you must eject the drive, load the files into it, and then insert it back into the Raspberry Pi.
-	A Python script that has a touch button function is here: [code with stop-on-touch function](../_includes/pyscript_photo_frame_touch_stop.py). Notice lines 44 through 50, which include a function to stop the script on touch input or a click of the left mouse button.
--  Disable the screen blanking function of the Raspberry Pi. The screen can turn completely black after a period of inactivity. This means, if you start the Python program and then leave it on to loop through your pictures continuously, what will happen is that the screen will eventually turn blank. The Pi computer is still on, and the Python program is still running, but the screen is black because of inactivity. To prevent this from happening, [disable screen blanking](https://raspberrytips.com/disable-sleep-mode-raspberry-pi/).
--  Put the entire assembly into a case or stand. Doing so not only protects the computer boards from dust, but also gives support to the assembly so that it can stand on its own and you don't have to use books or other such objects as props. I used a [Multicomp Pro case] (https://robu.in/product/raspberry-pi-4-model-b-touchscreen-7-inch-display-case-abs-red/), which was the only stand available in my part of the world. Other options are a [Pimoroni frame](https://shop.pimoroni.com/products/pibow-frame-for-raspberry-pi-touch-display-2?variant=53514322968955) or a 3-D printed stand from the [designs at thingiverse.com](https://www.thingiverse.com/search?q=raspberry+touchscreen+display&page=1).
+  A Python script that has a touch button function is here: [code with stop-on-touch function](https://raw.githubusercontent.com/AninditaBasu/pi-projects/refs/heads/main/_includes/pyscript_photo_frame_touch_stop.py). Notice lines 44 through 50, which include a function to stop the script on touch input or a click of the left mouse button.
 -  Have the Python display loop also include photos from a cloud drive.
+-  Put the entire assembly into a case or stand. Doing so not only protects the computer boards from dust, but also gives support to the assembly so that it can stand on its own and you don't have to use books or other such objects as props. I used a [Multicomp Pro case] (https://robu.in/product/raspberry-pi-4-model-b-touchscreen-7-inch-display-case-abs-red), which was the only stand available in my part of the world. Other options are a [Pimoroni frame](https://shop.pimoroni.com/products/pibow-frame-for-raspberry-pi-touch-display-2?variant=53514322968955) or a 3-D printed stand from the [designs at thingiverse.com](https://www.thingiverse.com/search?q=raspberry+touchscreen+display&page=1).
+
 
