@@ -12,28 +12,33 @@ In this tutorial, though you're not going to use the Raspberry Pi as a computer,
 
 For building my photo frame, these are the materials I used. Your materials look the same, I believe.
 
-| Front view | Back view |
-| ---------- | --------- |
-| <p style="text-align:center;"><img src="../images/frame_front.jpeg" width="45%" /></p> | <p style="text-align:center;"><img src="../images/frame_back.jpeg" width="45%" /></p> |
+<table>
+<tr>
+<th>Front view</th><th>Back view</th>
+</tr>
+<tr>
+<td><p style="text-align:center;"><img src="../images/frame_front.jpeg" width="45%" /></p></td><td><p style="text-align:center;"><img src="../images/frame_back.jpeg" width="45%" /></p></td>
+</tr>
+</table>
 
 Notice the left side of the images. At the top left quadrant is the Raspberry Pi board. At the bottom left is the power supply, the heat sinks, and the microSD card. These objects, when put together, constitute a standalone Raspberry Pi computer that you can use to do...stuff. Like building a digital photo frame.
 
-Look at the right half of the images. The objects there are what's included in a standard pack of the Raspberry Pi Touch Display. When plugged into a Pi computer (which you can assemble from the materials at the left), this set becomes the display unit for the Pi computer. 
+Look at the right half of the images. The objects there are what's included in an official pack of the Raspberry Pi Touch Display. When plugged into a Pi computer (which you can assemble from the materials at the left), this set becomes the display unit for the Pi computer. 
 
 Notice the view of the display screen from the back (second image, upper right quadrant).  The green board, called the controller board, has four little screws at the four corners. To mount the display screen on to the Raspberry Pi, you loosen these four screws at the four ends of the controller board of the display screen, place the Raspberry Pi on to it, and put the screws back in place.
 
-You then connect these two objects by means of two wires (red and black) and a cable (the white straight strip). Two things to note here:
+You then connect these two boards by means of two wires (red and black) and a cable (the white straight strip), which you can see at the bottom right quadrant of the images. Two things to note here:
 
--  You don't need the shiny curved strip also shown in the picture; it came as standard packaging with the display and is used in Raspberry Pi 4 models. The model being used here is Raspberry Pi 3B+, though, so the straight white strip is the one to use. In the Pi world, these strips are known as ribbon cables.
--  You also don't need the yellow wire and the green wire. In the Pi world, this kind of wire is called a jumper cable. Your photo frame uses a Raspberry Pi 3B+, which needs only two wires. The yellow and green wires are needed only if you're using an older model of the Raspberry Pi, one that does not have a 40-pin GPIO strip. For this tutorial, the GPIO pins aren't needed so they won't be discussed, but if you're curious, you can read up on `GPIO`, `SCL`, and `SDA` pins.
+-  You don't need the shiny curved strip also shown in the picture; it came as standard packaging with the display and is used in Raspberry Pi 4 models. The model being used here is Raspberry Pi 3B+, though, so the straight white strip is the one to use. In the Pi world, strips like these are known as ribbon cables.
+-  You also don't need the yellow wire and the green wire. In the Pi world, this kind of wire is called a jumper cable. Your photo frame uses a Raspberry Pi 3B+, which needs only two wires. The yellow and green wires are needed only if you're using an older model of the Raspberry Pi, one that does not have a 40-pin GPIO strip. For this tutorial, the GPIO pins aren't the focus so they won't be discussed, but if you're curious, you can read up on `GPIO`, `SCL`, and `SDA` pins.
 
-When you're done, the entire assembly should look somethings like this:
+When you're done with attaching the display screen to the Raspberry Pi, the entire assembly should look somethings like this:
 
 <img src="../images/frame_wip.jpeg" width="75%" />
 
 <hr/>
 
-Detailed steps on how to attach the display screen to the Raspberry Pi is shown in this YouTube video: 
+Detailed steps on how to attach the display screen to the Raspberry Pi are shown in this YouTube video: 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/SyhJctufiRI?si=Hv3bjPuczohvv8ES" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 If you'd rather read some written instructions than watch a video, see this official guide from the good folks at Raspberry Org: [Touch Display](https://www.raspberrypi.com/documentation/accessories/display.html).

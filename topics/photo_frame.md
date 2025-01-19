@@ -16,11 +16,11 @@ In this tutorial, I show you how to use a Raspberry Pi 3B+ computer and a Raspbe
 
 For the photo frame:
 
--  A Raspberry Pi 3B+ computer. This little computer board will hold the code that displays the images.
--  A Raspberry Pi 7" official touch display. This screen is where the images are displayed. You can choose to use any other display screen that can be used with a Raspberry Pi 3B+, but I used the official display because it's a plug-and-play set up.
+-  A Raspberry Pi 3B+ computer. This little computer board will hold the code that displays the photos.
+-  A Raspberry Pi 7" official touch display. This screen is where the photos are displayed. You can choose to use any other display screen that can be used with a Raspberry Pi 3B+, but I used the official display because it's a plug-and-play set up.
 -  A Raspberry Pi official power adapter. Theoretically, any adapter with a USB-C cable that can plug into the Raspberry should work fine. In practice, it's better to get the official power adapter because it's been tested to deliver the exact power that the Raspberry Pi needs (which is 3A).
 -  A microSD card. This tiny card will contain the operating system that your Raspberry Pi will run on.
--  A USB drive. This flash drive will contain your images.
+-  A USB drive. This flash drive will contain your photos.
 -  (Optional) Heat sinks. These are little metal blocks that draw the heat away from the processor and the network chip. A photo frame program running on the Raspberry Pi should not heat the computer much, but it is safe practice to use heat sinks.
 -  (Optional) A mouse and a keyboard. These two things are optional, because you can use your laptop keyboard and touchpad too to issue commands to the Raspberry Pi.
 
@@ -39,6 +39,7 @@ Here are the step-by-step guides for these tasks:
 
 1.  [Attach the display screen](pi_3b_attach_display.md) to the Raspberry Pi.
 1.  (Optional) [Fix the heat sinks](pi_3b_attach_heatsink.md) on the Raspberry Pi.
+1.  Make your laptop (or desktop) ready for setting up the Raspberry Pi.
 1.  [Install an operating system](pi_3b_install_os.md) on the Raspberry Pi.
 1.  (Optional) If you don't have an external keyboard and mouse, [set up Raspberry Pi Connect](pi_piconnect.md) so that you can control the Raspberry Pi from your laptop or desktop.
 1.  [Write the Python code](python_photo_frame.md) for pulling and displaying the photos.
