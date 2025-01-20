@@ -32,7 +32,7 @@ To set up the Raspberry Pi:
 
 ## Steps
 
-To build the photo frame, you first set up the Raspberry Pi, then connect it to the touch display, and finally write a script to display your photo collection.
+To build the photo frame, you first connect the touch display screen to the Raspberry Pi, then set the Raspberry Pi up with an operating system, and finally write a script to display your photo collection.
 
 Here are the step-by-step guides for these tasks:
 
@@ -40,6 +40,5 @@ Here are the step-by-step guides for these tasks:
 1.  (Optional) [Fix the heat sinks](pi_3b_attach_heatsink.md) on the Raspberry Pi.
 1.  [Make your laptop ready](set_up_laptop.md) for setting up the Raspberry Pi.
 1.  [Install an operating system](pi_3b_install_os.md) on the Raspberry Pi.
-1.  If you don't have an external keyboard and mouse, [set up Raspberry Pi Connect](pi_piconnect.md).
 1.  [Write the Python code](python_photo_frame.md) for displaying the photos.
 

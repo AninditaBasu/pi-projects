@@ -12,4 +12,4 @@ Before you can use your laptop to run a Raspberry Pi OS installation, make sure 
 -  {% include download_ip_scanner.md%}
 -  {% include download_putty.md%}
 
-You are now ready to install an operating system on your Pi.
+You are now ready to [install an operating system](pi_3b_install_os.md) on your Pi.

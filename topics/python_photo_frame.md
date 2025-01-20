@@ -10,9 +10,9 @@ A digital photo frame reads photo files from a storage device, and displays them
 
 The operating system that you installed on the Raspberry Pi already includes Python, as well as an integrated development environment (IDE) that makes it easier for you to write, run, and edit Python programs. This IDE is the Thonny IDE. You'll use Thonny to write the photo frame program.
 
-1.  Switch on the Raspberry Pi. If you're [using Raspberry Pi Connect](pi_piconnect.md), wait for a few seconds till the green light stops flashing on the Pi board, and then connect to the Pi through screen sharing.
-1.  Update the operating system by running the following command: `sudo apt-get update`.
-1.  Upgrade all of the installed packages by running the following command: `sudo apt-get upgrade`.
+1.  Switch on the Raspberry Pi.
+1.  Download any updates to the operating system by running the following command: `sudo apt-get update`.
+1.  Apply these downloads to the operating system by running the following command: `sudo apt-get upgrade`.
 1.  Open Thonny by clicking the Raspberry Pi icon near the top left, and then clicking **Programming > Thonny**.
 1.   
 
