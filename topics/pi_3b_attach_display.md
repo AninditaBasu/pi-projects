@@ -17,8 +17,10 @@ For building my photo frame, these are the materials I used. Your materials look
 <th>Front view</th><th>Back view</th>
 </tr>
 <tr>
-<td><p style="text-align:center;"><img src="../images/frame_front.jpeg" width="45%" /></p></td><td><p style="text-align:center;"><img src="../images/frame_back.jpeg" width="45%" /></p></td>
+<td><p style="text-align:center;"><a href = "../images/frame_front.jpeg"><img src="../images/frame_front.jpeg" width="45%" /></a></p></td>
+<td><p style="text-align:center;"><a href = "../images/frame_back.jpeg"><img src="../images/frame_back.jpeg" width="45%" /></a></p></td>
 </tr>
+<tr colspan = "2"><p style="font-size:75%;">To see a larger image, click the image</p></tr>
 </table>
 
 Notice the left side of the images. At the top left quadrant is the Raspberry Pi board. At the bottom left is the power supply, the heat sinks, and the microSD card. These objects, when put together, constitute a standalone Raspberry Pi computer that you can use to do...stuff. Like building a digital photo frame.
@@ -32,9 +34,9 @@ You then connect these two boards by means of two wires (red and black) and a ca
 -  You don't need the shiny curved strip also shown in the picture; it came as standard packaging with the display and is used in Raspberry Pi 4 models. The model being used here is Raspberry Pi 3B+, though, so the straight white strip is the one to use. In the Pi world, strips like these are known as ribbon cables.
 -  You also don't need the yellow wire and the green wire. In the Pi world, this kind of wire is called a jumper cable. Your photo frame uses a Raspberry Pi 3B+, which needs only two wires. The yellow and green wires are needed only if you're using an older model of the Raspberry Pi, one that does not have a 40-pin GPIO strip. For this tutorial, the GPIO pins aren't the focus so they won't be discussed, but if you're curious, you can read up on `GPIO`, `SCL`, and `SDA` pins.
 
-When you're done with attaching the display screen to the Raspberry Pi, the entire assembly should look somethings like this:
+When you're done with attaching the display screen to the Raspberry Pi, the entire assembly should look something like this:
 
-<img src="../images/frame_wip.jpeg" width="75%" />
+<img src="../images/frame_wip.jpeg" width="50%" />
 
 <hr/>
 
@@ -45,4 +47,4 @@ If you'd rather read some written instructions than watch a video, see this offi
 
 <hr/>
 
-After the display screen is mounted on the computer board, [affix the heat sinks to the board](pi_3b_attach_heatsink.md).
+After the display screen is mounted on the computer board, [fix the heat sinks to the board](pi_3b_attach_heatsink.md).

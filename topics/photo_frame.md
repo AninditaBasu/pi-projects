@@ -22,30 +22,24 @@ For the photo frame:
 -  A microSD card. This tiny card will contain the operating system that your Raspberry Pi will run on.
 -  A USB drive. This flash drive will contain your photos.
 -  (Optional) Heat sinks. These are little metal blocks that draw the heat away from the processor and the network chip. A photo frame program running on the Raspberry Pi should not heat the computer much, but it is safe practice to use heat sinks.
--  (Optional) A mouse and a keyboard. These two things are optional, because you can use your laptop keyboard and touchpad too to issue commands to the Raspberry Pi.
+-  (Optional) An external keyboard and a mouse. These two things are optional, because you can use your laptop keyboard and touchpad to issue commands to the Raspberry Pi.
 
 To set up the Raspberry Pi:
 
--  A laptop or desktop, with a microSD port. If your laptop (or desktop) does not have this port, you need a microSD card reader that you can plug into laptop (or desktop).
--  An internet connection.
-
-After the Raspberry Pi is set up and the photo frame is working, you'll no longer need the laptop (or desktop). Further, you can choose to run the photo frame in an isolated manner, not connected to any network, in which case you won't need the internet connection either.
+-  A laptop (or desktop), with a microSD port. If your laptop does not have this port, you need a microSD card reader that you can plug into laptop. After the Raspberry Pi is set up and the photo frame is working, you'll no longer need the laptop.
+-  Administrator privileges on the laptop, so that you can download all the required software on it.
+-  An internet connection. After the set up is complete, you can choose to run the photo frame in an isolated manner, not connected to any network, in which case you won't need the internet connection thereafter.
 
 ## Steps
 
-To build the photo frame, you must first set up the Raspberry Pi, connect it to the touch display, and then write a script to read and show the files in your photo collection.
+To build the photo frame, you first set up the Raspberry Pi, then connect it to the touch display, and finally write a script to display your photo collection.
 
 Here are the step-by-step guides for these tasks:
 
 1.  [Attach the display screen](pi_3b_attach_display.md) to the Raspberry Pi.
 1.  (Optional) [Fix the heat sinks](pi_3b_attach_heatsink.md) on the Raspberry Pi.
-1.  Make your laptop (or desktop) ready for setting up the Raspberry Pi.
+1.  [Make your laptop ready](set_up_laptop.md) for setting up the Raspberry Pi.
 1.  [Install an operating system](pi_3b_install_os.md) on the Raspberry Pi.
-1.  (Optional) If you don't have an external keyboard and mouse, [set up Raspberry Pi Connect](pi_piconnect.md) so that you can control the Raspberry Pi from your laptop or desktop.
-1.  [Write the Python code](python_photo_frame.md) for pulling and displaying the photos.
-
-
-
-
-
+1.  If you don't have an external keyboard and mouse, [set up Raspberry Pi Connect](pi_piconnect.md).
+1.  [Write the Python code](python_photo_frame.md) for displaying the photos.
 

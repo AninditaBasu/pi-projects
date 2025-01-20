@@ -1,0 +1,2 @@
+1.  On your laptop, plug in the microSD card and format it by running SD Card Formatter.
+1.  Run the Raspberry Pi Imager wizard and download Pi's operating system to it. Raspberry Pi computers all run on  operating systems that are based on the open-source Debian operating system. This tutorial uses an operating system that's based on {{page.baseos}} and made for {{page.pimodel}}. Begin the download process by selecting the model as {{page.pimodel}} and the operating system as {{page.pios}}.

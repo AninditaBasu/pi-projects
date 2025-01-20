@@ -6,9 +6,11 @@ description: Pull photos from a local storage (SD card, USB drive) or cloud stor
 
 # {{ page.title }}
 
-A heat sink is a metal square object that is attached to a Raspberry Pi board by means of thermal paste. It draws the heat away from the processor, the USB controller, and the ethernet controller. A photo frame program running on a Raspberry Pi 3B+ should not heat the little computer too much, but it is safe practice to use heat sinks. The three small corrugated squares that you see in the bottom quadrant of the image are heat sinks. In the Pi world, these corrugations are known as fins.
+A heat sink is a metal square object that is attached to a Raspberry Pi board by means of thermal paste. It draws the heat away from the processor, the USB controller, and the ethernet controller. A photo frame program running on a Raspberry Pi 3B+ should not heat the little computer too much, but it is safe practice to use heat sinks. 
 
-<img src="../images/frame_front.jpeg" width="75%" />
+The three small corrugated squares that you see at the bottom left of the image are heat sinks. In the Pi world, these corrugations are known as fins.
+
+<img src="../images/pi_3.jpeg" width="75%" />
 
 Notice that the image shows three heat sinks.  A Raspberry Pi Model 3B+ needs only two of those. It's the Raspberry Pi 4 model that would've needed all three heat sinks, but because these heat sinks hardly cost anything, shops in my corner of the world usually sell them in sets of 3.
 

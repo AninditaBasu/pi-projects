@@ -1,0 +1,1 @@
+If you don't plan to use an external mouse, keyboard, and monitor with your Pi, you'll need to connect to it through your laptop. One of the ways to do so is by using a secure shell (SSH) connection. PuTTY is an SSH client through which you can interactively run a command-line session on your Pi. [Download PuTTY](https://www.putty.org/).
