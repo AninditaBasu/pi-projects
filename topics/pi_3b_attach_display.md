@@ -19,8 +19,18 @@ For building my photo frame, these are the materials I used. Your materials look
 <th>Front view</th><th>Back view</th>
 </tr>
 <tr>
-<td><p style="text-align:center;"><a href = "../images/frame_front.jpeg"><img src="../images/frame_front.jpeg" width="45%" /></a></p><p style="font-size:75%;">To see a larger image, click the image</p></td>
-<td><p style="text-align:center;"><a href = "../images/frame_back.jpeg"><img src="../images/frame_back.jpeg" width="45%" /></a></p><p style="font-size:75%;">To see a larger image, click the image</p></td>
+<td>
+<p style="text-align:center;">
+<a href = "../images/frame_front.jpeg"><img src="../images/frame_front.jpeg" width="45%" /></a><br/>
+<span style="font-size:75%;">To see a larger image, click the image.</span>
+</p>
+</td>
+<td>
+<p style="text-align:center;">
+<a href = "../images/frame_back.jpeg"><img src="../images/frame_back.jpeg" width="45%" /></a><br/>
+<span style="font-size:75%;">To see a larger image, click the image.</span>
+</p>
+</td>
 </tr>
 </table>
 
@@ -37,7 +47,11 @@ You then connect these two boards by means of two wires (red and black) and a ca
 
 When you're done with attaching the display screen to the Raspberry Pi, the entire assembly should look something like this image (taken from `https://www.raspberrypi.com/documentation/accessories/display.html`):
 
-<img src="../images/display_mounted.png" />
+<a href = "../images/display_mounted.png">
+<img src="../images/display_mounted.png"  width="50%"/>
+</a>
+<span style="font-size:75%;">To see a larger image, click the image.</span>
+
 
 <hr/>
 

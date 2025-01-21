@@ -12,8 +12,8 @@ A heat sink is a metal square object that is attached to a Raspberry Pi board by
 
 The three small corrugated squares that you see at the bottom left of the image are heat sinks. In the Pi world, these corrugations are known as fins.
 
-<a href = "../images/pi_3.jpeg"><img src = "../images/pi_3.jpeg" width="50%" /></a>
-<p style="font-size:75%;">To see a larger image, click the image</p>
+<a href = "../images/pi_3.jpeg"><img src = "../images/pi_3.jpeg" width="50%" /></a><br/>
+<span style="font-size:75%;">To see a larger image, click the image.</span>
 
 Notice that the image shows three heat sinks.  A Raspberry Pi Model 3B+ needs only two of those. It's the Raspberry Pi 4 model that would've needed all three heat sinks, but because these heat sinks hardly cost anything, shops in my corner of the world usually sell them in sets of 3.
 

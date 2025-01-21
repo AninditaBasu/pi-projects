@@ -52,21 +52,18 @@ pre {
 table {
   border: 1px solid #2c3e50;
   border-collapse: collapse;
-  background-color: #f1f1f1;
   padding: 2px;
   font-family: monospace;
 }
 th {
   border: 1px solid #2c3e50;
   border-collapse: collapse;
-  background-color: #f1f1f1;
   padding: 2px;
-  color: crimson;
+  color: #2c3e50;
 }
 td {
   border: 1px solid #2c3e50;
   border-collapse: collapse;
-  background-color: #f1f1f1;
   padding: 2px;
 }
 
