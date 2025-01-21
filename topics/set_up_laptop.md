@@ -3,6 +3,8 @@ layout: template_generalFiles
 title: Prepare your laptop for the Raspberry Pi installation
 ---
 
+{% include mermaid_photo_frame.md %}
+
 # {{ page.title }}
 
 Before you can use your laptop to run a Raspberry Pi OS installation, make sure that the following software is available on it.

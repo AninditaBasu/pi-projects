@@ -4,6 +4,8 @@ title: Write the Python code for displaying the photos
 description: Pull photos from a local storage (SD card, USB drive) or cloud storage, and display them with a time lag on a Raspberry Pi 3B+.
 ---
 
+{% include mermaid_photo_frame.md %}
+
 # {{ page.title }}
 
 A digital photo frame reads photo files from a storage device, and displays them on the screen for a specified time. For the photo frame that you're building, this job will be done by a Python program.

@@ -4,6 +4,8 @@ title: Attach a touch display to Raspberry Pi 3B+
 description: Pull photos from a local storage (SD card, USB drive) or cloud storage, and display them with a time lag on a Raspberry Pi 3B+.
 ---
 
+{% include mermaid_photo_frame.md %}
+
 # {{ page.title }}
 
 The Raspberry Pi is what they call an SBC (a single board computer). It has neither a screen where you can see the output of your commands, nor a keyboard through which you can send these commands to the computer. It is just a barebones computer, with no peripheral devices such as keyboard, mouse, monitor, speaker, or microphone. To use a Raspberry Pi as a computer, you must manually attach these peripherals to it. 
@@ -17,10 +19,9 @@ For building my photo frame, these are the materials I used. Your materials look
 <th>Front view</th><th>Back view</th>
 </tr>
 <tr>
-<td><p style="text-align:center;"><a href = "../images/frame_front.jpeg"><img src="../images/frame_front.jpeg" width="45%" /></a></p></td>
-<td><p style="text-align:center;"><a href = "../images/frame_back.jpeg"><img src="../images/frame_back.jpeg" width="45%" /></a></p></td>
+<td><p style="text-align:center;"><a href = "../images/frame_front.jpeg"><img src="../images/frame_front.jpeg" width="45%" /></a></p><p style="font-size:75%;">To see a larger image, click the image</p></td>
+<td><p style="text-align:center;"><a href = "../images/frame_back.jpeg"><img src="../images/frame_back.jpeg" width="45%" /></a></p><p style="font-size:75%;">To see a larger image, click the image</p></td>
 </tr>
-<tr><td colspan = "2"><p style="font-size:75%;">To see a larger image, click the image</p></td></tr>
 </table>
 
 Notice the left side of the images. At the top left quadrant is the Raspberry Pi board. At the bottom left is the power supply, the heat sinks, and the microSD card. These objects, when put together, constitute a standalone Raspberry Pi computer that you can use to do...stuff. Like building a digital photo frame.
@@ -31,12 +32,12 @@ Notice the view of the display screen from the back (second image, upper right q
 
 You then connect these two boards by means of two wires (red and black) and a cable (the white straight strip), which you can see at the bottom right quadrant of the images. Two things to note here:
 
--  You don't need the shiny curved strip also shown in the picture; it came as standard packaging with the display and is used in Raspberry Pi 4 models. The model being used here is Raspberry Pi 3B+, though, so the straight white strip is the one to use. In the Pi world, strips like these are known as ribbon cables.
--  You also don't need the yellow wire and the green wire. In the Pi world, this kind of wire is called a jumper cable. Your photo frame uses a Raspberry Pi 3B+, which needs only two wires. The yellow and green wires are needed only if you're using an older model of the Raspberry Pi, one that does not have a 40-pin GPIO strip. For this tutorial, the GPIO pins aren't the focus so they won't be discussed, but if you're curious, you can read up on `GPIO`, `SCL`, and `SDA` pins.
+-  You don't need the shiny curved strip also shown in the picture; it came as standard packaging with the display and is used in Raspberry Pi 4 models. The model being used here, in this project, is Raspberry Pi 3B+, so the straight white strip is the one to use. In the Pi world, strips like these are known as ribbon cables.
+-  You also don't need the yellow wire and the green wire. In the Pi world, this kind of wire is called a jumper cable. Your photo frame uses a Raspberry Pi 3B+, which needs only two jumper cables, the red and the black. The yellow and green jumper cables are needed only if you're using an older model of the Raspberry Pi, one that does not have a 40-pin GPIO strip. For this tutorial, the GPIO pins aren't the focus so they won't be discussed, but if you're curious, you can read up on `GPIO`, `SCL`, and `SDA` pins.
 
 When you're done with attaching the display screen to the Raspberry Pi, the entire assembly should look something like this image (taken from `https://www.raspberrypi.com/documentation/accessories/display.html`):
 
-<img src="../images/display_mounted.jpeg" />
+<img src="../images/display_mounted.png" />
 
 <hr/>
 

@@ -32,7 +32,7 @@ To set up the Raspberry Pi:
 
 ## Steps
 
-To build the photo frame, you first connect the touch display screen to the Raspberry Pi, then set the Raspberry Pi up with an operating system, and finally write a script to display your photo collection.
+To build the photo frame, you first connect the touch display screen to the Raspberry Pi, then make the Raspberry Pi ready by installing an operating system on it, and finally write a script to display your photo collection.
 
 Here are the step-by-step guides for these tasks:
 
@@ -42,3 +42,4 @@ Here are the step-by-step guides for these tasks:
 1.  [Install an operating system](pi_3b_install_os.md) on the Raspberry Pi.
 1.  [Write the Python code](python_photo_frame.md) for displaying the photos.
 
+{% include mermaid_photo_frame.md %}
