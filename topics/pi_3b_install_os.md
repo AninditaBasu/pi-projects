@@ -7,13 +7,13 @@ baseos: Debian Bookworm
 pios: Raspberry Pi OS 64-bit (A port of Debian Bookworm with the Raspberry Pi Desktop)
 ---
 
-{% include mermaid_photo_frame.md %}
+{% include mermaid_photo_frame_flowchart.md %}
 
 # {{ page.title }}
 
 Do you see the black microSD card near the bottom center of the image, right next to the three heat sinks? 
 
-<a href = "../images/pi_3.jpeg"><img src = "../images/pi_3.jpeg" width="50%" /></a>
+<a href = "../images/pi_3.jpeg"><img src = "../images/pi_3.jpeg" width="50%" /></a><br/>
 <span style="font-size:75%;">To see a larger image, click the image.</span>
 
 The operating system will be downloaded on to that card, which will then be inserted into the microSD slot of the Raspberry Pi. That's what will get this little computer up and running, and make it available for you for the final steps of the photo frame project.
@@ -33,6 +33,12 @@ The operating system will be downloaded on to that card, which will then be inse
     1.  Open a terminal window. If you're logged in through your laptop, you're already in the terminal window. If you're using an external keyboard and mouse, move the mouse over the icons at the top left, locate the one labelled **Terminal**, and click it.
     1.  To see if there are any updates to the operating system, run the following command: `sudo apt-get update`. You'll be shown a list of the software that has been updated since the date of your current operating system.
     1.  Upgrade the software shown on this list by running the following command: `sudo apt-get upgrade`. When prompted for permission to proceed with the upgrade, answer in the affirmative.	
+1.  If you don't have an external mouse or keyboard, set up Raspberry Pi Connect so that you can control the Raspberry Pi through a laptop through the Raspberry Pi's desktop GUI itself. You're already logged into the Raspberry Pi through your laptop via SSH, but you can use only the terminal window when you're so logged in; you can't use the Raspberry Pi's desktop GUI. With the Connect software, you can log into your Raspberry Pi through any browser, and use it through its desktop environment.
+    1.  Install Connect by running the following command in the terminal window: `sudo apt install rpi-connect`.
+	1.  Start Connect by running the following command in the terminal: `rpi-connect on`.
+	1.  Generate a link that will connect your Raspberry Pi computer with your Connect account by running the following command from the terminal: `rpi-connect signin`. You're shown a sign-in URL on the terminal.
+	1.  On your laptop, open a browser, type the URL shown on the Raspberry Pi terminal window, and follow the onscreen prompts to complete the signin and authentication process.
+	1.  In the same browser window, specify a name to identify your device, and click **Create device and sign in**. 
 1.  If you're not immediately proceeding to the next step (where you write the Python program), shut down the Raspberry Pi.
     1.  If you're using an external mouse, close the terminal window. Then click the Raspberry Pi icon near the top left and click **Shutdown > Shutdown**. Wait till the green light on the Raspberry Pi board stops flashing, and then switch off the power supply.
 	1.  If you're logged in through your laptop, type the following command on the terminal: `sudo shutdown -h now`. You should be disconnected from Raspberry Pi and the terminal window should disappear.  Wait till the green light on the Raspberry Pi board stops flashing, and then switch off the power supply.

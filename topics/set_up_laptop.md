@@ -3,7 +3,7 @@ layout: template_generalFiles
 title: Prepare your laptop for the Raspberry Pi installation
 ---
 
-{% include mermaid_photo_frame.md %}
+{% include mermaid_photo_frame_flowchart.md %}
 
 # {{ page.title }}
 

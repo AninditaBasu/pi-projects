@@ -4,7 +4,7 @@ title: Fix heat sinks to Raspberry Pi 3B+
 description: Pull photos from a local storage (SD card, USB drive) or cloud storage, and display them with a time lag on a Raspberry Pi 3B+.
 ---
 
-{% include mermaid_photo_frame.md %}
+{% include mermaid_photo_frame_flowchart.md %}
 
 # {{ page.title }}
 

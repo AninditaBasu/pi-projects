@@ -4,7 +4,7 @@ title: Attach a touch display to Raspberry Pi 3B+
 description: Pull photos from a local storage (SD card, USB drive) or cloud storage, and display them with a time lag on a Raspberry Pi 3B+.
 ---
 
-{% include mermaid_photo_frame.md %}
+{% include mermaid_photo_frame_flowchart.md %}
 
 # {{ page.title }}
 
@@ -48,10 +48,8 @@ You then connect these two boards by means of two wires (red and black) and a ca
 When you're done with attaching the display screen to the Raspberry Pi, the entire assembly should look something like this image (taken from `https://www.raspberrypi.com/documentation/accessories/display.html`):
 
 <a href = "../images/display_mounted.png">
-<img src="../images/display_mounted.png"  width="50%"/>
-</a>
+<img src="../images/display_mounted.png" width="50%"/></a><br/>
 <span style="font-size:75%;">To see a larger image, click the image.</span>
-
 
 <hr/>
 

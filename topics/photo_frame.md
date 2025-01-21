@@ -43,4 +43,4 @@ Here are the step-by-step guides for these tasks:
 1.  [Write the Python code](python_photo_frame.md) for displaying the photos.
 1.  (Optional) [Refine the project](photo_frame_refine.md).
 
-{% include mermaid_photo_frame.md %}
+{% include mermaid_photo_frame_flowchart.md %}
