@@ -41,11 +41,11 @@ def digital_photo_frame():
         label.config(image=photo)
         label.image = photo
         root.after(10000, update_image, (index + 1) % len(images))  # Change image every 10 seconds
-    # Add an invisible button for touchscreen stop functionality
+    # Add a blue button for touchscreen stop functionality
     def stop_program(event):
         root.destroy()
-    # Create a transparent overlay in the top-left corner (25x25 pixels) to detect touch
-    touch_exit_area = tk.Frame(root, width=25, height=25, bg="blue")  # Red for visibility; can be removed
+    # Create an overlay in the top-left corner (25x25 pixels) to detect touch
+    touch_exit_area = tk.Frame(root, width=25, height=25, bg="blue")  # Blue for visibility purposes
     touch_exit_area.place(x=0, y=0)
     touch_exit_area.bind("<Button-1>", stop_program)  # Bind left mouse button or touchscreen press
     # Start displaying the first image

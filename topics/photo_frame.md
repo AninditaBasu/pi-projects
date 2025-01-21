@@ -41,5 +41,6 @@ Here are the step-by-step guides for these tasks:
 1.  [Make your laptop ready](set_up_laptop.md) for setting up the Raspberry Pi.
 1.  [Install an operating system](pi_3b_install_os.md) on the Raspberry Pi.
 1.  [Write the Python code](python_photo_frame.md) for displaying the photos.
+1.  (Optional) [Refine the project](photo_frame_refine.md).
 
 {% include mermaid_photo_frame.md %}
