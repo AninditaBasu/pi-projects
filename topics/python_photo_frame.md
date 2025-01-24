@@ -44,3 +44,12 @@ The following entity relationship diagram shows the relationship between the fun
 {% include mermaid_pyscript_photo_frame_er_diagram.md %}
 
 ## The explanation
+
+Notice the first four lines of the code.
+
+```python
+import os
+import time
+from PIL import Image, ImageTk
+import tkinter as tk
+```
