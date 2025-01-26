@@ -32,21 +32,29 @@ blockquote {
 }
 
 code {
-  font-family: monospace;
+  font-family: "Courier New", monospace;
   color: crimson;
   background-color: #f1f1f1;
   padding: 2px;
   font-size: 105%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 40px;
+  margin-right: 40px;
 }
 
 pre {
   display: block;
-  font-family: monospace;
+  font-family: "Courier New", monospace;
   white-space: pre;
   color: crimson;
   background-color: #f1f1f1;
   padding: 2px;
   font-size: 105%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 40px;
+  margin-right: 40px;
 } 
 
 table {
