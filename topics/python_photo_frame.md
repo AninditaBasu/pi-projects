@@ -27,7 +27,9 @@ The operating system that you installed on the Raspberry Pi already includes Pyt
 ## The code
 
 ```python
+
 {% include pyscript_photo_frame.py %}
+
 ```
 
 <br/>

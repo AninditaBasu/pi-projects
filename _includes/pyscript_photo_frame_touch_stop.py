@@ -1,7 +1,7 @@
 import os
 import time
-from PIL import Image, ImageTk
 import tkinter as tk
+from PIL import Image, ImageTk
 
 # Function to get a list of image files from a directory and its subdirectories
 def get_image_files(directory):
