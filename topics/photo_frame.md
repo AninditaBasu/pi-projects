@@ -8,6 +8,9 @@ description: Pull photos from a local storage (SD card, USB drive) or cloud stor
 
 A digital photo frame is an LED device that can display pictures. It's similar to an LCD TV, inasmuch as you can plug in a USB flash drive to the TV's port and view the pictures. A photo frame is, however, not as large as a typical TV. Quite a few digital frames also have speakers, just like TVs do, so that you can view movie clips on it as well. Unlike a TV, where you must scroll through the pictures manually, a digital photo frame can be configured to display pictures in a continuous loop, advancing to the next picture after a specified time period.
 
+<a href = "../images/frame_in_action_1.JPEG"><img src = "../images/frame_in_action_1.JPEG" width="50%" /></a><br/>
+<span style="font-size:75%;">To see a larger image, click the image.</span>
+
 In this tutorial, I show you how to use a Raspberry Pi 3B+ computer and a Raspberry Pi Touch Display to make a digital photo frame. Along the way, I explain how to set up a headless Raspberry Pi computer, connect it to a touch display, and then run Python on it. It doesn't matter if you don't know Python, because I'll provide the entire code for you to copy and use. If you do know Python, you can tweak the code to include the enhancements that I'll suggest at the end of the tutorial.
 
 <hr/>
