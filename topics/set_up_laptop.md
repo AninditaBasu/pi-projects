@@ -1,6 +1,8 @@
 ---
 layout: template_generalFiles
 title: Prepare your laptop for the Raspberry Pi installation
+created: Jan 20, 2025
+updated: Jan 21, 2025
 ---
 
 {% include mermaid_photo_frame_flowchart.md %}

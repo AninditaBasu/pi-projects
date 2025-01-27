@@ -2,6 +2,8 @@
 layout: template_generalFiles
 title: Digital photo frame
 description: Pull photos from a local storage (SD card, USB drive) or cloud storage, and display them with a time lag.
+created: Jan 17, 2025
+updated: Jan 27, 2025
 ---
 
 # {{ page.title }}
@@ -13,9 +15,13 @@ A digital photo frame is an LED device that can display pictures. It's similar t
 
 In this tutorial, I show you how to use a Raspberry Pi 3B+ computer and a Raspberry Pi Touch Display to make a digital photo frame. Along the way, I explain how to set up a headless Raspberry Pi computer, connect it to a touch display, and then run Python on it. It doesn't matter if you don't know Python, because I'll provide the entire code for you to copy and use. If you do know Python, you can tweak the code to include the enhancements that I'll suggest at the end of the tutorial.
 
+-  [Materials](#materials)
+-  [Steps](#steps)
+-  [Costs](#costs)
+
 <hr/>
 
-## Materials required
+## Materials
 
 For the photo frame:
 
@@ -47,3 +53,17 @@ Here are the step-by-step guides for these tasks:
 1.  (Optional) [Refine the project](photo_frame_refine.md).
 
 {% include mermaid_photo_frame_flowchart.md %}
+
+## Costs
+
+All figures are in Indian Rupees (INR), and inclusive of GST (goods and service tax).
+
+| Item | Amount (INR) |
+| --- | --- |
+| Raspberry Pi 3 Model B | 3,538.82 |
+| 12.5W Official Raspberry Pi Micro USB Power Supply | 708.00 |
+| Raspberry Pi Official 32GB V3.0 , A2 Class Micro SD | 398.84 |
+| Aluminium Heat Sink | 35.40 |
+| Official Raspberry Pi 7" Touch Display | 6,372.00 |
+| Raspberry Pi 4 Model B Touchscreen 7 inch Display Case -ABS, Black | 849.00 |
+| | **11,902.06**|

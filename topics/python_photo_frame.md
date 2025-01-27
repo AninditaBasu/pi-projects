@@ -2,6 +2,8 @@
 layout: template_generalFiles
 title: Write the Python code for displaying the photos
 description: Pull photos from a local storage (SD card, USB drive) or cloud storage, and display them with a time lag on a Raspberry Pi 3B+.
+created: Jan 19, 2025
+updated: Jan 27, 2025
 ---
 
 {% include mermaid_photo_frame_flowchart.md %}
@@ -58,7 +60,7 @@ The following entity relationship diagram shows the relationship between the fun
 
 {% include mermaid_pyscript_photo_frame_er_diagram.md %}
 
-## The code, explanation
+## The code, explained
 
 Notice the first four lines of the code.
 
@@ -70,6 +72,11 @@ import tkinter as tk
 from PIL import Image, ImageTk
 
 ```
+
+This is where you import all the libraries and packages needed for this project. {% include python_library.md %}
+
+Some libraries are included by default in every Python installation. The libraries called `os`, `time`, and `tkinter`, called in the first three lines, are such libraries. Some other libraries are ones that you manually install in the virtual environment of your project. The `pillow` library, called here as `PIL`, is one such library. It is a library for handling images.
+
 ## Troubleshooting
 
 If `Pillow` does not show up in the search results when you try to install it through **Tools > Manage packages**:

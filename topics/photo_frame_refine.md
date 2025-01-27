@@ -5,6 +5,8 @@ description: Pull photos from a local storage (SD card, USB drive) or cloud stor
 pimodel: Raspberry Pi 3
 baseos: Debian Bookworm
 pios: Raspberry Pi OS 64-bit (A port of Debian Bookworm with the Raspberry Pi Desktop)
+created: Jan 21, 2025
+updated: Jan 24, 2025
 ---
 
 {% include mermaid_photo_frame_flowchart.md %}
