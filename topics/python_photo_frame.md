@@ -37,6 +37,11 @@ The operating system that you installed on the Raspberry Pi already includes Pyt
 1.  Install a Python package called `Pillow` in the virtual environment. To do so, click **Tools > Manage packages**, search for `Pillow`, and click **Install**.
 1.  Save the file, and click the **Run** icon. You should see your photos being picked up and displayed one after the other.
 
+<video width="320" height="240" controls>
+  <source src="demo_frame.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
 <hr/>
 
 ## The code, raw
