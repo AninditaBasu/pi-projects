@@ -80,15 +80,15 @@ Some libraries are included by default in every Python installation. The librari
 
 Take a look at this part of the code:
 
-```bash
+```python
 image_extensions = {'.png', '.jpg', '.jpeg', '.bmp', '.gif'}
 ```
 
-All the possible photo extensions are listed here, but if you think any is missing, go ahead and add it here. If any of your photos use extensions spelt in uppercase letters (for example, `.JPEG` or `.PNG`, it's a good idea to add them to this list too.
+All the possible photo extensions are listed here, but if you think any is missing, go ahead and add it here. If any of your photos use extensions spelt in uppercase letters (for example, `.JPEG` or `.PNG`), it's a good idea to add them to this list too.
 
 See this bit of the code:
 
-```bash
+```python
 # Fullscreen settings (optional)
 root.attributes('-fullscreen', True)
 root.bind("<Escape>", lambda e: root.destroy())  # Exit fullscreen with the Esc key
@@ -98,7 +98,7 @@ You would've noticed that the display takes up the entire screen. Now, what if y
 
 Take a look at this bit, which controls the time for which a photo is displayed:
 
-```bash
+```python
 root.after(10000, update_image, (index + 1) % len(images))  # Change the image every 10 seconds
 ```
 
