@@ -37,7 +37,7 @@ The operating system that you installed on the Raspberry Pi already includes Pyt
 1.  Install a Python package called `Pillow` in the virtual environment. To do so, click **Tools > Manage packages**, search for `Pillow`, and click **Install**.
 1.  Save the file, and click the **Run** icon. You should see your photos being picked up and displayed one after the other.
 
-<video controls>
+<video width="40%" height="40%" controls>
   <source src="../images/demo_frame.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
@@ -47,9 +47,7 @@ The operating system that you installed on the Raspberry Pi already includes Pyt
 ## The code, raw
 
 ```python
-
 {% include pyscript_photo_frame.py %}
-
 ```
 
 <br/>
@@ -70,17 +68,41 @@ The following entity relationship diagram shows the relationship between the fun
 Notice the first four lines of the code.
 
 ```python
-
 import os
 import time
 import tkinter as tk
 from PIL import Image, ImageTk
-
 ```
 
 This is where you import all the libraries and packages needed for this project. {% include python_library.md %}
 
 Some libraries are included by default in every Python installation. The libraries called `os`, `time`, and `tkinter`, called in the first three lines, are such libraries. Some other libraries are ones that you manually install in the virtual environment of your project. The `pillow` library, called here as `PIL`, is one such library. It is a library for handling images.
+
+Take a look at this part of the code:
+
+```bash
+image_extensions = {'.png', '.jpg', '.jpeg', '.bmp', '.gif'}
+```
+
+All the possible photo extensions are listed here, but if you think any is missing, go ahead and add it here. If any of your photos use extensions spelt in uppercase letters (for example, `.JPEG` or `.PNG`, it's a good idea to add them to this list too.
+
+See this bit of the code:
+
+```bash
+# Fullscreen settings (optional)
+root.attributes('-fullscreen', True)
+root.bind("<Escape>", lambda e: root.destroy())  # Exit fullscreen with the Esc key
+```
+
+You would've noticed that the display takes up the entire screen. Now, what if you need to stop the program from running? None of the Raspberry Pi controls are displayed anywhere. To take care of this eventuality, the `Esc` key of the keyboard has been bound to the action to stop the program midway.
+
+Take a look at this bit, which controls the time for which a photo is displayed:
+
+```bash
+root.after(10000, update_image, (index + 1) % len(images))  # Change the image every 10 seconds
+```
+
+The number `10000` is in milliseconds. It means, every photo is displayed for 10 seconds. You can change this value to whatever you want the time lag between photos to be.
 
 ## Troubleshooting
 
