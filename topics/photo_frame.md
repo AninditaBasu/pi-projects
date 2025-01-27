@@ -17,7 +17,7 @@ In this tutorial, I show you how to use a Raspberry Pi 3B+ computer and a Raspbe
 
 -  [Materials](#materials)
 -  [Steps](#steps)
--  [Costs](#costs)
+-  [Cost](#cost)
 
 <hr/>
 
@@ -54,12 +54,12 @@ Here are the step-by-step guides for these tasks:
 
 {% include mermaid_photo_frame_flowchart.md %}
 
-## Costs
+## Cost
 
 All figures are in Indian Rupees (INR), and inclusive of GST (goods and service tax).
 
 | Item | Amount (INR) |
-| --- | --- |
+| ---- | -----------: |
 | Raspberry Pi 3 Model B | 3,538.82 |
 | 12.5W Official Raspberry Pi Micro USB Power Supply | 708.00 |
 | Raspberry Pi Official 32GB V3.0 , A2 Class Micro SD | 398.84 |
