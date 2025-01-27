@@ -32,7 +32,7 @@ blockquote {
 }
 
 code {
-  font-family: "Times New Roman", serif;
+  font-family: "Courier New", monospace;
   color: crimson;
   background-color: #f1f1f1;
   padding: 2px;
@@ -41,7 +41,7 @@ code {
 
 pre {
   display: block;
-  font-family: "Times New Roman", serif;
+  font-family: "Courier New", monospace;
   white-space: pre;
   color: crimson;
   background-color: #f1f1f1;
