@@ -1,6 +1,6 @@
 ---
 layout: template_generalFiles
-title: Chiming clock
+title: Clock chimes
 description: Chime on the hour and the half hour
 created: Jan 28, 2025
 updated: Jan 30, 2025
@@ -13,6 +13,7 @@ In this tutorial, I show you how to use a Raspberry Pi 4 computer and an externa
 -  [Materials](#materials)
 -  [Steps](#steps)
 -  [Cost](#cost)
+-  [Alternatives](#alternatives)
 
 <hr/>
 
@@ -20,8 +21,8 @@ In this tutorial, I show you how to use a Raspberry Pi 4 computer and an externa
 
 For the chimes:
 
--  A Raspberry Pi 4B computer. This little computer board will hold the code that makes the chimes ring out every half hour and hour. Structky speaking, you don't need a Raspberry Pi 4B computer; an older model will work excellently too because this project doesn't need much computing power. But I was already using my Raspberry Pi 4B for something else, so I deployed this project on on it.
--  A speaker. For this project, I used a Honeywell soundbar, but you can use any speaker that has a 3.5mm audio jack and is externally powered through a separate plugpoint.
+-  A Raspberry Pi 4B computer. This little computer board will hold the code that makes the chimes ring out every half hour and hour. Structky speaking, you don't need a Raspberry Pi 4B computer; an older model will work excellently too because this project doesn't need much computing power. But I was already using my Raspberry Pi 4B for something else, so I deployed this project on on it. Any Raspberry Pi model that has a 3.5 mm audio port will work.
+-  A speaker. For this project, I used a Honeywell soundbar, but you can use any speaker that has a 3.5 mm audio jack and is externally powered through a separate plug point.
 -  A Raspberry Pi official power adapter. Theoretically, any adapter with a USB-C cable that can plug into the Raspberry should work fine. In practice, it's better to get the official power adapter because it's been tested to deliver the exact power that the Raspberry Pi needs (which is 3A).
 -  A microSD card. This tiny card will contain the operating system that your Raspberry Pi will run on.
 -  (Optional) Heat sinks. These are little metal blocks that draw the heat away from the processor and the network chip. A photo frame program running on the Raspberry Pi should not heat the computer much, but it is safe practice to use heat sinks.
@@ -52,9 +53,13 @@ All figures are in Indian Rupees (INR), and inclusive of GST (goods and service 
 
 | Item | Amount (INR) | Notes |
 | :---- | -----------: | :------ |
-| Raspberry Pi 4 Model B |  | You can use an older model too (costs lesser), so long as you can plug an audio jack in it. |
+| Raspberry Pi 4 Model B |  | You can use an older model too (costs lesser), so long as you can plug a 3.5 mm audio jack in it. |
 | 12.5W Official Raspberry Pi Micro USB Power Supply | 708.00 | |
 | Raspberry Pi Official 32GB V3.0 , A2 Class Micro SD | 398.84 | |
 | Aluminium Heat Sink | 35.40 | |
-| Honeywell Moxie V500 10W Portable USB Wired Soundbar  | 789.00 | You can use any externally powered speaker that has an audio jack. |
+| Honeywell Moxie V500 10W Portable USB Wired Soundbar  | 789.00 | You can use any externally powered speaker that has a 3.5 mm audio jack. |
 | | **x,xxx.xx**| |
+
+## Alternatives
+
+A battery-operated grandfather clock, like [this one from Titan](https://www.amazon.in/Titan-Classic-Colour-Pendulum-Westminster/dp/B0BDRQMRZY/ref=sr_1_34).
