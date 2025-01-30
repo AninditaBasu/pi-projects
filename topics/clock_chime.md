@@ -3,7 +3,7 @@ layout: template_generalFiles
 title: Chiming clock
 description: Chime on the hour and the half hour
 created: Jan 28, 2025
-updated: Jan 28, 2025
+updated: Jan 30, 2025
 ---
 
 # {{ page.title }}
@@ -39,21 +39,22 @@ You make the Raspberry Pi ready by installing an operating system on it, and wri
 
 Here are the step-by-step guides for these tasks:
 
-1.  (Optional) Fix the heat sinks on the Raspberry Pi.
+1.  (Optional) [Fix the heat sinks](pi_4_attach_heatsink.md) on the Raspberry Pi.
 1.  [Make your laptop ready](set_up_laptop.md) for setting up the Raspberry Pi.
-1.  Install an operating system on the Raspberry Pi.
+1.  [Install an operating system](pi_4_install_os.md) on the Raspberry Pi.
 1.  Write the Python code for playing the chimes every hour and every half hour.
+
+{% include mermaid_clock_chime_flowchart.md %}
 
 ## Cost
 
 All figures are in Indian Rupees (INR), and inclusive of GST (goods and service tax).
 
 | Item | Amount (INR) | Notes |
-| ---- | -----------: | ------ |
-| Raspberry Pi 4 Model B |  | You can use an older model too. Raspberry Pi Zero, for example, which costs significantly less. |
+| :---- | -----------: | :------ |
+| Raspberry Pi 4 Model B |  | You can use an older model too. Raspberry Pi Zero, for example, costs significantly less. |
 | 12.5W Official Raspberry Pi Micro USB Power Supply | 708.00 | |
 | Raspberry Pi Official 32GB V3.0 , A2 Class Micro SD | 398.84 | |
 | Aluminium Heat Sink | 35.40 | |
 | Honeywell Moxie V500 10W Portable USB Wired Soundbar  | 789.00 | You can use any externally powered speaker that has an audio jack |
-
-| | **.**|
+| | **x,xxx.xx**| |
