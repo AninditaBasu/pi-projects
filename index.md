@@ -6,7 +6,7 @@ title: Pi Projects Home
 ## Tutorials
 
 <div class="grid-container">
-  <div class="item1"><img src = "images/logo.png"  width="70%" /></div>
+  <div class="item1"><img src = "images/logo.png"  width="60%" /></div>
   <div><p>Raspberry Pi Zero 2W</p>
 	<ul><li>Set up a surveillance camera (to be written)</li></ul>
   </div>
