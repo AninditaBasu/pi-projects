@@ -18,7 +18,7 @@ In this tutorial, I show you how to use a Raspberry Pi 4 computer and an externa
 
 ## Materials
 
-For the photo frame:
+For the chimes:
 
 -  A Raspberry Pi 4B computer. This little computer board will hold the code that makes the chimes ring out every half hour and hour. Structky speaking, you don't need a Raspberry Pi 4B computer; an older model will work excellently too because this project doesn't need much computing power. But I was already using my Raspberry Pi 4B for something else, so I deployed this project on on it.
 -  A speaker. For this project, I used a Honeywell soundbar, but you can use any speaker that has a 3.5mm audio jack and is externally powered through a separate plugpoint.
@@ -35,29 +35,25 @@ To set up the Raspberry Pi:
 
 ## Steps
 
-To build the photo frame, you first connect the touch display screen to the Raspberry Pi, then make the Raspberry Pi ready by installing an operating system on it, and finally write a script to display your photo collection.
+You make the Raspberry Pi ready by installing an operating system on it, and write a script to play the chimes.
 
 Here are the step-by-step guides for these tasks:
 
-1.  [Attach the display screen](pi_3b_attach_display.md) to the Raspberry Pi.
-1.  (Optional) [Fix the heat sinks](pi_3b_attach_heatsink.md) on the Raspberry Pi.
+1.  (Optional) Fix the heat sinks on the Raspberry Pi.
 1.  [Make your laptop ready](set_up_laptop.md) for setting up the Raspberry Pi.
-1.  [Install an operating system](pi_3b_install_os.md) on the Raspberry Pi.
-1.  [Write the Python code](python_photo_frame.md) for displaying the photos.
-1.  (Optional) [Refine the project](photo_frame_refine.md).
-
-{% include mermaid_photo_frame_flowchart.md %}
+1.  Install an operating system on the Raspberry Pi.
+1.  Write the Python code for playing the chimes every hour and every half hour.
 
 ## Cost
 
 All figures are in Indian Rupees (INR), and inclusive of GST (goods and service tax).
 
-| Item | Amount (INR) |
-| ---- | -----------: |
-| Raspberry Pi 3 Model B | 3,538.82 |
-| 12.5W Official Raspberry Pi Micro USB Power Supply | 708.00 |
-| Raspberry Pi Official 32GB V3.0 , A2 Class Micro SD | 398.84 |
-| Aluminium Heat Sink | 35.40 |
-| Official Raspberry Pi 7" Touch Display | 6,372.00 |
-| Raspberry Pi 4 Model B Touchscreen 7 inch Display Case -ABS, Black | 849.00 |
-| | **11,902.06**|
+| Item | Amount (INR) | Notes |
+| ---- | -----------: | ------ |
+| Raspberry Pi 4 Model B |  | You can use an older model too. Raspberry Pi Zero, for example, which costs significantly less. |
+| 12.5W Official Raspberry Pi Micro USB Power Supply | 708.00 | |
+| Raspberry Pi Official 32GB V3.0 , A2 Class Micro SD | 398.84 | |
+| Aluminium Heat Sink | 35.40 | |
+| Honeywell Moxie V500 10W Portable USB Wired Soundbar  | 789.00 | You can use any externally powered speaker that has an audio jack |
+
+| | **.**|

@@ -8,3 +8,4 @@ title: Pi Projects Home
 -  [Build a digital photo frame](topics/photo_frame.md)
 -  Simulate a chiming townclock
 
+<img src = "/images/logo.png"  width="30%" />
