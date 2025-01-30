@@ -17,7 +17,7 @@ title: Pi Projects Home
 	<li>Set up remote storage (to be written)</li>
 	</ul>
   </div>
-  <div><img src = "images/logo.png"  width="60%" /></div>
+  <div><img src = "images/logo.png" width="60%" /></div>
 </div>
 
 <hr/>
