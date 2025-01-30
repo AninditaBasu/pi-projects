@@ -1,7 +1,7 @@
 ---
 layout: template_generalFiles
 title: Digital photo frame
-description: Pull photos from a local storage (SD card, USB drive) or cloud storage, and display them with a time lag.
+description: Pull photos from a local storage (SD card, USB drive) or cloud storage, and display them with a time lag
 created: Jan 17, 2025
 updated: Jan 30, 2025
 ---
@@ -28,17 +28,17 @@ For the photo frame:
 
 -  A Raspberry Pi 3B+ computer. This little computer board will hold the code that displays the photos.
 -  A Raspberry Pi 7" official touch display. This screen is where the photos are displayed. You can choose to use any other display screen that can be used with a Raspberry Pi 3B+, but I used the official display because it's a plug-and-play set up.
--  A Raspberry Pi official power adapter. Theoretically, any adapter with a USB-C cable that can plug into the Raspberry should work fine. In practice, it's better to get the official power adapter because it's been tested to deliver the exact power that the Raspberry Pi needs (which is 3A).
+-  A Raspberry Pi official power adapter. Theoretically, any adapter with a USB-C cable that can plug into the Raspberry should work fine. In practice, it's better to get the official power adapter because it's been tested to deliver the exact power that the Raspberry Pi needs.
 -  A microSD card. This tiny card will contain the operating system that your Raspberry Pi will run on.
 -  A USB drive. This flash drive will contain your photos.
--  (Optional) Heat sinks. These are little metal blocks that draw the heat away from the processor and the network chip. A photo frame program running on the Raspberry Pi should not heat the computer much, but it is safe practice to use heat sinks.
--  (Optional) An external keyboard and a mouse. These two things are optional, because you can use your laptop keyboard and touchpad to issue commands to the Raspberry Pi.
+-  (Optional) Heat sinks. These are little metal blocks that draw the heat away from the chips on the Raspberry Pi board. A Python program for this project should not heat the Raspberry Pi too much, but it is safe practice to use heat sinks.
+-  (Optional) An external keyboard and a mouse. These two things are optional, because you can use your laptop keyboard and touchpad to issue commands to the Raspberry Pi computer.
 
 To set up the Raspberry Pi:
 
 -  A laptop (or desktop), with a microSD port. If your laptop does not have this port, you need a microSD card reader that you can plug into laptop. After the Raspberry Pi is set up and the photo frame is working, you'll no longer need the laptop.
 -  Administrator privileges on the laptop, so that you can download all the required software on it.
--  An internet connection. After the set up is complete, you can choose to run the photo frame in an isolated manner, not connected to any network, in which case you won't need the internet connection thereafter.
+-  An internet connection. After the set up is complete, this project does not need an internet connection.
 
 ## Steps
 
