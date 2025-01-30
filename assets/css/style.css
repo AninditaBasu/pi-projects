@@ -103,5 +103,5 @@ body {
 }
 
 .item1 {
-  grid-area: 1 / 2 / span 2 / span 1;
+  grid-area: 1 / 2 / span 3 / span 1;
 }

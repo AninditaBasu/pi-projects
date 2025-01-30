@@ -8,7 +8,12 @@ updated: Jan 30, 2025
 
 # {{ page.title }}
 
-There was a time when meadow, grove, and stream, the earth, and every common sight, was apparelled in celestial light. It is not now as it hath been of yore. The things which I have seen I now can see no more. One such thing is a grandfather clock, that let out stately dings on the hour, every hour. 
+There was a time when meadow, grove, and stream, the earth, and every common sight, was apparelled in celestial light. It is not now as it hath been of yore. The things which I have seen I now can see no more. One such thing is a grandfather clock, that let out stately dings on the hour, every hour.
+
+<video width="40%" height="40%" controls>
+  <source src="../images/demo_clock.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video> 
 
 In this tutorial, I show you how to use a Raspberry Pi 4 computer and an external speaker to simulate the chimes of a grandfather clock. Along the way, I explain how to set up a headless Raspberry Pi computer, and write Python code on it. It doesn't matter if you don't know Python, because I'll provide the entire code for you to copy and use.
 
@@ -55,16 +60,18 @@ All figures are in Indian Rupees (INR), and inclusive of GST (goods and service 
 
 | Item | Amount (INR) |
 | :---- | -----------: |
-| Raspberry Pi 4 Model B \* |  |
-| 12.5W Official Raspberry Pi Micro USB Power Supply | 708.00 |
-| Raspberry Pi Official 32GB V3.0 , A2 Class Micro SD | 398.84 |
+| Raspberry Pi 4 8GB \* | 8,999.00 |
+| 12.5W Official Raspberry Pi Micro USB Power Supply | 672.60 |
+| Amazon Basics 32GB MicroSDHC Memory Card with Adapter | 369.00 |
 | Aluminium Heat Sink | 35.40 |
 | Honeywell Moxie V500 10W Portable USB Wired Soundbar \*\* | 789.00 |
-| | **x,xxx.xx**|
+| | **10,865.00**|
 
-\*: You can use an older model too, so long as you can plug a 3.5 mm audio jack in it. Here are some options:
+\*: You can also use a Raspberry Pi 4 model with lesser RAM; it is cheaper. One with 1GB, which is suffieint to run the chiming script, costs INR 3,599.00, which is 30% of the cost of the model I used in this tutorial.
+
+You can use an older Raspberry Pi model too, so long as you can plug a 3.5 mm audio jack in it. Here are some options:
 -  Raspberry Pi Zero 2W (INR 1,569.00), with a USB2-to-audio-port coupler. Alternatively, use the mini-HDMI port to connect to a monitor that has inbuilt speakers.
--  Raspberry Pi 3A+ (INR 2,559.00) or Raspberry Pi 3B+ (INR 3,598.00), which already have an audio port.
+-  Raspberry Pi 3A (INR 2,559.00) or Raspberry Pi 3B (INR 3,598.00), which already have an audio port.
 
 \*\*: You can use any externally powered speaker that has a 3.5 mm audio jack.
 

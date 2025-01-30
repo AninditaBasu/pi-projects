@@ -23,6 +23,9 @@ The operating system that you installed on the Raspberry Pi already includes Pyt
 
 ## The steps
 
+<a href = "../images/chime_wip.jpeg"><img src = "../images/chime_wip.jpeg" width="40%" /></a><br/>
+<span style="font-size:75%;">To see a larger image, click the image.</span>
+
 1.  Plug in the speaker to the Raspberry Pi, and switch both of them on.
 1.  If you don't have an external keyboard or mouse, log in remotely to your Raspberry Pi by using Connect:
     1.  On your laptop, open `https://connect.raspberrypi.com/` and sign in.
@@ -36,7 +39,12 @@ The operating system that you installed on the Raspberry Pi already includes Pyt
 1.  In the same virtual environment, at the same location as the `.py` file, paste a sound file containing the music you want to be played as the chimes. This sound file should be a `.wav` file because the `pygame` library can play only `.wav` files. For my project, I downloaded a royalty-free sound file that had peeling church bells, and then edited the file in Audacity to separate out a 2-second clip of a dinging sound.
 1.  Install a Python package called `pygame` in the virtual environment. To do so, click **Tools > Manage packages**, search for `pygame`, and click **Install**.
 1.  Edit line 7 of the Python code to make sure that the file name is correct. For example, if your sound file is called `dingdong.wav`, line 7 should be `sound_file = 'dingdong.wav'`.
-1.  Save the file, and click the **Run** icon. Wait for the half hour or the hour. You should be able to hear the chimes: once for the half hour and the number of times for the hour.
+1.  Save the file, and click the **Run** icon. Wait for the half hour or the hour. You should be able to hear the chimes.
+
+<video width="40%" height="40%" controls>
+  <source src="../images/demo_clock_2.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
 
 <hr/>
 
