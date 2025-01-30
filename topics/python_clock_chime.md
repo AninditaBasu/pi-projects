@@ -60,9 +60,9 @@ from datetime import datetime
 import pygame
 ```
 
-This is where you import the libraries and packages needed for this project. {% include python_library.md %}
+This is where you import the libraries and packages that are needed for this project. {% include python_library.md %}
 
-Some libraries are included by default in every Python installation. The libraries called `time` and `datetime`, which are imported in the first two lines, are such libraries. Some other libraries are ones that you manually install in the virtual environment of your project. The `pygame` library is one such library. It is a library for handling multimedia files like the sound file you'll use in this project.
+Some libraries are included by default in every Python installation. The libraries called `time` and `datetime`, which are imported in the first two lines, are such libraries. Some other libraries are ones that you manually install in the virtual environment of your project. The `pygame` library is one such library. It is a library for handling multimedia files like the sound file you use in this project.
 
 Take a look at this part of the code:
 
@@ -117,6 +117,5 @@ If `pygame` does not show up in the search results when you try to install it th
 
 You should now be able to see `pygame` in the list of installed packages.
 
-<hr width = "30%" />
 
 If your sound file plays perfectly on your laptop but seems to be stuttering on the Raspberry Pi computer, the problem might lie with buffering. Increase the buffer size to `8192` or higher when initialising the `pygame` library at line 6.

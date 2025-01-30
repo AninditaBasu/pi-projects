@@ -8,6 +8,8 @@ updated: Jan 30, 2025
 
 # {{ page.title }}
 
+There was a time when meadow, grove, and stream, the earth, and every common sight, was apparelled in celestial light. It is not now as it hath been of yore. The things which I have seen I now can see no more. One such thing is a grandfather clock, that let out stately dings on the hour, every hour. 
+
 In this tutorial, I show you how to use a Raspberry Pi 4 computer and an external speaker to simulate the chimes of a grandfather clock. Along the way, I explain how to set up a headless Raspberry Pi computer, and write Python code on it. It doesn't matter if you don't know Python, because I'll provide the entire code for you to copy and use.
 
 -  [Materials](#materials)
@@ -53,17 +55,18 @@ All figures are in Indian Rupees (INR), and inclusive of GST (goods and service 
 
 | Item | Amount (INR) |
 | :---- | -----------: |
-| Raspberry Pi 4 Model B [^1] |  |
+| Raspberry Pi 4 Model B \* |  |
 | 12.5W Official Raspberry Pi Micro USB Power Supply | 708.00 |
 | Raspberry Pi Official 32GB V3.0 , A2 Class Micro SD | 398.84 |
 | Aluminium Heat Sink | 35.40 |
-| Honeywell Moxie V500 10W Portable USB Wired Soundbar [^2] | 789.00 |
+| Honeywell Moxie V500 10W Portable USB Wired Soundbar \*\* | 789.00 |
 | | **x,xxx.xx**|
 
-[^1]: You can use an older model too, so long as you can plug a 3.5 mm audio jack in it. Here are some options:
+\*: You can use an older model too, so long as you can plug a 3.5 mm audio jack in it. Here are some options:
 -  Raspberry Pi Zero 2W (INR 1,569.00), with a USB2-to-audio-port coupler. Alternatively, use the mini-HDMI port to connect to a monitor that has inbuilt speakers.
 -  Raspberry Pi 3A+ (INR 2,559.00) or Raspberry Pi 3B+ (INR 3,598.00), which already have an audio port.
-[^2]: You can use any externally powered speaker that has a 3.5 mm audio jack.
+
+\*\*: You can use any externally powered speaker that has a 3.5 mm audio jack.
 
 ## Alternatives
 
