@@ -92,7 +92,7 @@ body {
 
 .grid-container {
   display: grid;
-  grid-template-columns: 30% 70%;
+  grid-template-columns: 40% 60%;
   grid-gap: 10px;
   padding: 10px;
 }

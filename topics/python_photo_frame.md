@@ -1,7 +1,7 @@
 ---
 layout: template_generalFiles
 title: Write the Python code for displaying the photos
-description: Pull photos from a local storage (SD card, USB drive) or cloud storage, and display them with a time lag on a Raspberry Pi 3B+.
+description: Pull photos from a local storage (SD card, USB drive) or cloud storage, and display them with a time lag on a Raspberry Pi 3B+
 created: Jan 19, 2025
 updated: Jan 27, 2025
 ---
