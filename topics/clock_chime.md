@@ -52,9 +52,9 @@ All figures are in Indian Rupees (INR), and inclusive of GST (goods and service 
 
 | Item | Amount (INR) | Notes |
 | :---- | -----------: | :------ |
-| Raspberry Pi 4 Model B |  | You can use an older model too. Raspberry Pi Zero, for example, costs significantly less. |
+| Raspberry Pi 4 Model B |  | You can use an older model too (costs lesser), so long as you can plug an audio jack in it. |
 | 12.5W Official Raspberry Pi Micro USB Power Supply | 708.00 | |
 | Raspberry Pi Official 32GB V3.0 , A2 Class Micro SD | 398.84 | |
 | Aluminium Heat Sink | 35.40 | |
-| Honeywell Moxie V500 10W Portable USB Wired Soundbar  | 789.00 | You can use any externally powered speaker that has an audio jack |
+| Honeywell Moxie V500 10W Portable USB Wired Soundbar  | 789.00 | You can use any externally powered speaker that has an audio jack. |
 | | **x,xxx.xx**| |

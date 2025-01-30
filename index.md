@@ -5,7 +5,10 @@ title: Pi Projects Home
 
 ## Tutorials
 
--  [Build a digital photo frame](topics/photo_frame.md)
--  [Simulate a chiming townclock](topics/clock_chime.md)
+<div class="grid-container">
+  <div class="item1"><img src = "images/logo.png"  width="30%" /></div>
+  <div>Raspberry Pi 3B+ <br/><a href = "topics/photo_frame.html">Build a digital photo frame</a></div>
+  <div>Raspberry Pi 4 <a href = "topics/clock_chime.html">Simulate a chiming town clock</a></div>
+</div>
 
-<img src = "images/logo.png"  width="30%" />
+{% include mermaid_navigation_flowchart.md %}
