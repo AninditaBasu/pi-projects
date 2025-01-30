@@ -18,7 +18,7 @@ Do you see the black microSD card near the bottom center of the image, right nex
 <a href = "../images/pi_3.jpeg"><img src = "../images/pi_3.jpeg" width="50%" /></a><br/>
 <span style="font-size:75%;">To see a larger image, click the image.</span>
 
-The operating system will be downloaded on to that card, which will then be inserted into the microSD slot of the Raspberry Pi. That's what will get this little computer up and running, and make it available for you for the final steps of the photo frame project.
+The operating system will be downloaded on to that card, which will then be inserted into the microSD slot of the Raspberry Pi. That's what will get this little computer up and running, and make it available for you for the final steps of your project.
 
 <hr/>
 
@@ -45,5 +45,4 @@ The operating system will be downloaded on to that card, which will then be inse
     1.  If you're using an external mouse, close the terminal window. Then click the Raspberry Pi icon near the top left and click **Shutdown > Shutdown**. Wait till the green light on the Raspberry Pi board stops flashing, and then switch off the power supply.
 	1.  If you're logged in through your laptop, type the following command on the terminal: `sudo shutdown -h now`. You should be disconnected from Raspberry Pi and the terminal window should disappear.  Wait till the green light on the Raspberry Pi board stops flashing, and then switch off the power supply.
 
-Now that your Raspberry Pi is ready to be used as a computer, you can proceed to creating the Python script for your project.
-
+Now that your Raspberry Pi is ready to be used as a computer, you can proceed to creating the Python script for your project [clock_chime](python_clock_chime.md) project.

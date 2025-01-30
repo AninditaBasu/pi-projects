@@ -43,7 +43,7 @@ Here are the step-by-step guides for these tasks:
 1.  (Optional) [Fix the heat sinks](pi_4_attach_heatsink.md) on the Raspberry Pi.
 1.  [Make your laptop ready](set_up_laptop.md) for setting up the Raspberry Pi.
 1.  [Install an operating system](pi_4_install_os.md) on the Raspberry Pi.
-1.  Write the Python code for playing the chimes every hour and every half hour.
+1.  Write the Python code for [playing the chimes](python_clock_chime.md) every hour and every half hour.
 
 {% include mermaid_clock_chime_flowchart.md %}
 
