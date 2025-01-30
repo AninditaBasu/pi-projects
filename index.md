@@ -6,7 +6,7 @@ title: Pi Projects Home
 ## Tutorials
 
 <div class="grid-container">
-  <div class="item1"><img src = "images/logo.png"  width="50%" /></div>
+  <div class="item1"><img src = "images/logo.png"  width="70%" /></div>
   <div><p>Raspberry Pi 3B+</p>
 	<ul><li><a href = "topics/photo_frame.html">Build a digital photo frame</a></li></ul>
   </div>

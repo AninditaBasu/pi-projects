@@ -36,7 +36,8 @@ code {
   color: crimson;
   background-color: #f1f1f1;
   padding: 2px;
-  font-size: 100%;
+  font-size: 90%;
+  margin-left: 40px;
 }
 
 pre {
@@ -47,6 +48,7 @@ pre {
   background-color: #f1f1f1;
   padding: 2px;
   font-size: 100%;
+  margin-left: 40px;
 } 
 
 table {

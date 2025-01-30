@@ -45,4 +45,4 @@ The operating system will be downloaded on to that card, which will then be inse
     1.  If you're using an external mouse, close the terminal window. Then click the Raspberry Pi icon near the top left and click **Shutdown > Shutdown**. Wait till the green light on the Raspberry Pi board stops flashing, and then switch off the power supply.
 	1.  If you're logged in through your laptop, type the following command on the terminal: `sudo shutdown -h now`. You should be disconnected from Raspberry Pi and the terminal window should disappear.  Wait till the green light on the Raspberry Pi board stops flashing, and then switch off the power supply.
 
-Now that your Raspberry Pi is ready to be used as a computer, you can proceed to creating the Python script for your project [clock_chime](python_clock_chime.md) project.
+Now that your Raspberry Pi is ready to be used as a computer, you can proceed to creating the Python script for your project [clock chime](python_clock_chime.md) project.

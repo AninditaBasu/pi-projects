@@ -102,7 +102,7 @@ pygame.mixer.init(frequency=44100, size=-16, channels=2, buffer=4096)
 ```
 
 This code initialises the `pygame` module with the following parameters:
-- `frequency`, which is set to match my sound file's sample rate. To find the sample rate of your sound file, run the following command from the Raspberry Pi terminal: `file <ding.wav>`, where `ding.wav` must be replaced by the name of your sound file. You should get an output that's something like this: `RIFF (little-endian) data, WAVE audio, Microsoft PCM, 16 bit, stereo 44100 Hz`
+- `frequency`, which is set to match my sound file's sample rate. To find the sample rate of your sound file, run the following command from the Raspberry Pi terminal: `file <filename.wav>`, where `filename.wav` must be replaced by the name of your sound file. You should get an output that's something like this: `RIFF (little-endian) data, WAVE audio, Microsoft PCM, 16 bit, stereo 44100 Hz`
 - `size`, which is the bit-depth of the sound file. In my case, because the format is `PCM`, a negative sign (`-16`) is used, which is standard for PCM data. 
 - `channels`, which is set to `2` because my audio device is a dual-channel speaker.
 - `buffer`, increased from the default of `2048` to remove any stuttering.
@@ -116,3 +116,7 @@ If `pygame` does not show up in the search results when you try to install it th
 {% include thonny_install_packages.md %}
 
 You should now be able to see `pygame` in the list of installed packages.
+
+<hr width = "30%" />
+
+If your sound file plays perfectly on your laptop but seems to be stuttering on the Raspberry Pi computer, the problem might lie with buffering. Increase the buffer size to `8192` or higher when initialising the `pygame` library at line 6.

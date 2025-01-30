@@ -1,7 +1,7 @@
 A Python library is a collection of programs that do a specific task, and can be called in your program by their name. Libraries make it easy to do things that would've otherwise needed you to write out, manually, the several lines of code needed to do that thing. For example, assume you need to count the number of words in a sentence. The manual (non-library) way of doing so would be to write something like this:
 
 ```python
-sentence = 'There was a time when meadow, grove, and stream, and every common sight to me did seem apparelled in celestial light.'
+sentence = 'Beside the lake, beneath the trees, fluttering and dancing'
 word_counts = {}
 words = sentence.split()  # Split the sentence into words
 for word in words:

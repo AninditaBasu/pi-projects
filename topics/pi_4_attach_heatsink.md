@@ -20,7 +20,7 @@ The three small corrugated squares that you see at the bottom left of the image 
 You must attach heat sinks to the CPU chip, the USB chip, and the network chip of the Raspberry Pi board. The one that goes over the CPU chip is the largest one; the one to use on the ethernet board is the smallest one.
  
 1.  Peel off the adhesive strip at the back of the heat sink, all the while taking care that you don't touch the sticky part that the strip was covering. The sticky part is the thermal paste that will hold the sink in place.
-1.  Press the sink ever so slightly on to the chip on the Pi board.
+1.  Press the sink ever so slightly on to the chip on the Raspberry Pi board.
 
 <hr/>
 
