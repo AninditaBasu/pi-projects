@@ -60,20 +60,20 @@ All figures are in Indian Rupees (INR), and inclusive of GST (goods and service 
 
 | Item | Amount (INR) |
 | :---- | -----------: |
-| Raspberry Pi 4 8GB \* | 8,999.00 |
-| 12.5W Official Raspberry Pi Micro USB Power Supply | 672.60 |
+| Raspberry Pi 4 8GB **\*** | 8,999.00 |
+| 15.3W USB-C Power Supply - Official (For Raspberry Pi 4) | 672.60 |
 | Amazon Basics 32GB MicroSDHC Memory Card with Adapter | 369.00 |
 | Aluminium Heat Sink | 35.40 |
-| Honeywell Moxie V500 10W Portable USB Wired Soundbar \*\* | 789.00 |
+| Honeywell Moxie V500 10W Portable USB Wired Soundbar **\*\*** | 789.00 |
 | | **10,865.00**|
 
-\*: You can also use a Raspberry Pi 4 model with lesser RAM; it is cheaper. One with 1GB, which is suffieint to run the chiming script, costs INR 3,599.00, which is 30% of the cost of the model I used in this tutorial.
+**\*** You can also use a Raspberry Pi 4 model with lesser RAM. One with 1GB, which is sufficient to run the chiming script, costs INR 3,599.00, which is almost 30% cheaper than the model used in this tutorial.
 
 You can use an older Raspberry Pi model too, so long as you can plug a 3.5 mm audio jack in it. Here are some options:
 -  Raspberry Pi Zero 2W (INR 1,569.00), with a USB2-to-audio-port coupler. Alternatively, use the mini-HDMI port to connect to a monitor that has inbuilt speakers.
 -  Raspberry Pi 3A (INR 2,559.00) or Raspberry Pi 3B (INR 3,598.00), which already have an audio port.
 
-\*\*: You can use any externally powered speaker that has a 3.5 mm audio jack.
+**\*\*** You can use any externally powered speaker that has a 3.5 mm audio jack.
 
 ## Alternatives
 
