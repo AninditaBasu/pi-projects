@@ -33,7 +33,7 @@ blockquote {
 
 
 code {
-  font-family: "Ubuntu Mono", Monaspace, "JetBrains Mono", Consolas, monospace;
+  font-family: "Ubuntu Mono", "Monaspace", "JetBrains Mono", "Consolas", monospace;
   color: crimson;
   background-color: #f1f1f1;
   padding: 2px;
@@ -42,7 +42,7 @@ code {
 
 pre {
   display: block;
-  font-family: "Ubuntu Mono", Monaspace, "JetBrains Mono", Consolas, monospace;
+  font-family: "Ubuntu Mono", "Monaspace", "JetBrains Mono", "Consolas", monospace;
   white-space: pre;
   color: crimson;
   background-color: #f1f1f1;

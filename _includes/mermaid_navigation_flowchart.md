@@ -9,6 +9,8 @@ flowchart LR
     C --> H(...under construction: cloud storage...)
 	
 	click A "https://aninditabasu.github.io/pi-projects/topics/set_up_laptop.html"
+	click B "https://aninditabasu.github.io/pi-projects/topics/pi_3b_install_os.html"
+	click C "https://aninditabasu.github.io/pi-projects/topics/pi_4_install_os.html"
 	click D "https://aninditabasu.github.io/pi-projects/topics/photo_frame.html"
 	click E "https://aninditabasu.github.io/pi-projects/topics/clock_chime.html"
 	
