@@ -31,9 +31,9 @@ blockquote {
   line-height: 190%;
 }
 
-/*
+
 code {
-  font-family: "Courier New", monospace;
+  font-family: "Ubuntu Mono", Monaspace, "JetBrains Mono", Consolas, monospace;
   color: crimson;
   background-color: #f1f1f1;
   padding: 2px;
@@ -42,7 +42,7 @@ code {
 
 pre {
   display: block;
-  font-family: "Courier New", monospace;
+  font-family: "Ubuntu Mono", Monaspace, "JetBrains Mono", Consolas, monospace;
   white-space: pre;
   color: crimson;
   background-color: #f1f1f1;
@@ -50,7 +50,7 @@ pre {
   font-size: 90%;
 } 
 
-*/
+
 
 table {
   border: 1px solid #2c3e50;
