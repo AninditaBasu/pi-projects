@@ -50,7 +50,7 @@ The operating system that you installed on the Raspberry Pi already includes Pyt
 
 ## The code, raw
 
-```python
+```
 {% include pyscript_clock_chime.py %}
 ```
 
@@ -62,7 +62,7 @@ The operating system that you installed on the Raspberry Pi already includes Pyt
 
 Notice the first three lines of the code.
 
-```python
+```
 import time
 from datetime import datetime
 import pygame
@@ -74,7 +74,7 @@ Some libraries are included by default in every Python installation. The librari
 
 Take a look at this part of the code:
 
-```python
+```
 time.sleep(2)  # A 2-second delay between chimes
 ```
 
@@ -82,7 +82,7 @@ This bit specifies a 2-second delay when the chimes are going to be repeated for
 
 Look at how `sleep_time` is calculated. It takes into account the seconds that have elapsed while the sound was playing; therefore, this `sleep_time` is calculated twice, once on the hour and once on the half-hour.
 
-```python
+```
 sleep_time = (60 - current_minute) * 60 - current_second
 
 ...
@@ -92,7 +92,7 @@ sleep_time = 30 * 60 - current_second
 
 Take a look at this bit, which controls the number of times the chime is played:
 
-```python
+```
 play_chime(1)
 
 ...
@@ -114,7 +114,7 @@ play_chime(chime_count)
 
 Now, see this bit near the start of the code:
 
-```python
+```
 pygame.mixer.init(frequency=44100, size=-16, channels=2, buffer=4096)
 ```
 
@@ -128,11 +128,14 @@ You can also do a simpler initialisation, without specifying the parameters, lik
 
 ## Troubleshooting
 
+**`pygame` not found**
+
 If `pygame` does not show up in the search results when you try to install it through **Tools > Manage packages**:
 
 {% include thonny_install_packages.md %}
 
 You should now be able to see `pygame` in the list of installed packages.
 
+**Stuttering playback**
 
 If your sound file plays perfectly on your laptop but seems to be stuttering on the Raspberry Pi computer, the problem might lie with buffering. Increase the buffer size to `8192` or higher when initialising the `pygame` library at line 6.
