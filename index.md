@@ -20,6 +20,6 @@ title: Pi Projects Home
 
 <hr/>
 
-## Navigation
+## Tutorials navigation
 
 {% include mermaid_navigation_flowchart.md %}
