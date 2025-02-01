@@ -29,7 +29,7 @@ In this tutorial, I show you how to use a Raspberry Pi 4 computer and an externa
 For the chimes:
 
 -  A Raspberry Pi 4B computer. This little computer board will hold the code that makes the chimes ring out every half hour and hour. Strictly speaking, you don't need a Raspberry Pi 4B computer; an older model will work excellently too **\*** because this project doesn't need much computing power. But I was already using my Raspberry Pi 4B for something else, so I deployed this project on it. Any Raspberry Pi model that has a 3.5 mm audio port will work **\***.
--  A speaker. For this project, I used a Honeywell soundbar, but you can use any speaker that has a 3.5 mm audio jack and is externally powered through a separate plug point :electric_plug: **\*\***.
+-  A speaker. For this project, I used a Honeywell soundbar, but you can use any speaker that has a 3.5 mm audio jack and is externally powered :electric_plug: through a separate plug point **\*\***.
 -  A Raspberry Pi official power adapter. Theoretically, any adapter with a USB-C cable that can plug into the Raspberry should work fine. In practice, it's better to get the official power adapter because it's been tested to deliver the exact power that the Raspberry Pi needs.
 -  A microSD card. This tiny card will contain the operating system that your Raspberry Pi will run on.
 -  (Optional) Heat sinks. These are little metal blocks that draw the heat away from the chips on the Raspberry Pi board. A Python program for this project should not heat the Raspberry Pi too much, but it is safe practice to use heat sinks.
