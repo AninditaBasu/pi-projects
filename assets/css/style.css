@@ -50,6 +50,7 @@ pre {
   font-size: 90%;
 } 
 
+/*
 .language-python {
   font-family: Ubuntu Mono, Monaspace, JetBrains Mono, Consolas, monospace;
   color: crimson;
@@ -57,6 +58,7 @@ pre {
   padding: 2px;
   font-size: 90%;
 }
+*/
 
 table {
   border: 1px solid #2c3e50;

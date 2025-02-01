@@ -46,7 +46,7 @@ The operating system that you installed on the Raspberry Pi already includes Pyt
 
 ## The code, raw
 
-```python
+```
 {% include pyscript_photo_frame.py %}
 ```
 
@@ -67,7 +67,7 @@ The following entity relationship diagram shows the relationship between the fun
 
 Notice the first four lines of the code.
 
-```python
+```
 import os
 import time
 import tkinter as tk
@@ -80,7 +80,7 @@ Some libraries are included by default in every Python installation. The librari
 
 Take a look at this part of the code:
 
-```python
+```
 image_extensions = {'.png', '.jpg', '.jpeg', '.bmp', '.gif'}
 ```
 
@@ -88,7 +88,7 @@ All the possible photo extensions are listed here, but if you think any is missi
 
 See this bit of the code:
 
-```python
+```
 # Fullscreen settings (optional)
 root.attributes('-fullscreen', True)
 root.bind("<Escape>", lambda e: root.destroy())  # Exit fullscreen with the Esc key
@@ -98,7 +98,7 @@ You would've noticed that the display takes up the entire screen. Now, what if y
 
 Take a look at this bit, which controls the time for which a photo is displayed:
 
-```python
+```
 root.after(10000, update_image, (index + 1) % len(images))  # Change the image every 10 seconds
 ```
 

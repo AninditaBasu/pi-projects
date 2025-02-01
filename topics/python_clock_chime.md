@@ -3,7 +3,7 @@ layout: template_generalFiles
 title: Write the Python code for playing the clock chimes
 description: Chime on the hour and the half hour
 created: Jan 30, 2025
-updated: Jan 30, 2025
+updated: Feb 1, 2025
 ---
 
 {% include mermaid_clock_chime_flowchart.md %}
@@ -36,7 +36,7 @@ The operating system that you installed on the Raspberry Pi already includes Pyt
 1.  Open Thonny by clicking the Raspberry Pi icon near the top left, and then clicking **Programming > Thonny**.
 {% include thonny_venv.md %}
 1.  Open a new file by clicking **File > New**. Copy into it the code from [The code, raw](#the-code-raw) section of this page.
-1.  In the same virtual environment, at the same location as the `.py` file, paste a sound file containing the music you want to be played as the chimes. This sound file should be a `.wav` file because the `pygame` library can play only `.wav` files. For my project, I downloaded a royalty-free sound file that had peeling church bells, and then edited the file in Audacity to separate out a 2-second clip of a dinging sound.
+1.  In the same virtual environment, at the same location as the `.py` file, paste a sound file containing the music you want to be played as the chimes. This sound file should be a `.wav` file because the `pygame` library can play only `.wav` files. For this project, I downloaded a royalty-free sound file that had peeling church bells, and then edited the file in to separate out a 2-second clip of a dinging sound.
 1.  Install a Python package called `pygame` in the virtual environment. To do so, click **Tools > Manage packages**, search for `pygame`, and click **Install**.
 1.  Edit line 7 of the Python code to make sure that the file name is correct. For example, if your sound file is called `dingdong.wav`, line 7 should be `sound_file = 'dingdong.wav'`.
 1.  Save the file, and click the **Run** icon. Wait for the half hour or the hour. You should be able to hear the chimes.
@@ -104,7 +104,7 @@ play_chime(chime_count)
 `chime_count` is calculated according to the current hour, as follows: `chime_count = now.hour % 12 or 12`. The reason for using a modulus operation rather than a substraction operation (like `chime_count = now.hour - 12`) is explained in the following table.
 
 |`now.hour`| Modulus (`now.hour % 12`) | Substraction (`now.hour - 12`) | Notes |
-|----------|---------|-------------|-------|
+|:--------:|:-------------------------:|:------------------------------:|--------|
 | 13 | 1 | 1 | Both methods return the correct hour. |
 | 14 | 2 | 2 | Both methods return the correct hour. |
 | 23 | 11 | 11 | Both methods return the correct hour. |
@@ -128,7 +128,7 @@ You can also do a simpler initialisation, without specifying the parameters, lik
 
 ## Troubleshooting
 
-**`pygame` not found**
+**1.  `pygame` not found**
 
 If `pygame` does not show up in the search results when you try to install it through **Tools > Manage packages**:
 
@@ -136,6 +136,6 @@ If `pygame` does not show up in the search results when you try to install it th
 
 You should now be able to see `pygame` in the list of installed packages.
 
-**Stuttering playback**
+**2.  Stuttering playback**
 
 If your sound file plays perfectly on your laptop but seems to be stuttering on the Raspberry Pi computer, the problem might lie with buffering. Increase the buffer size to `8192` or higher when initialising the `pygame` library at line 6.

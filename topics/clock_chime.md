@@ -3,7 +3,7 @@ layout: template_generalFiles
 title: Clock chimes
 description: Chime on the hour and the half hour
 created: Jan 28, 2025
-updated: Jan 30, 2025
+updated: Feb 1, 2025
 ---
 
 # {{ page.title }}
@@ -34,6 +34,8 @@ For the chimes:
 -  A microSD card. This tiny card will contain the operating system that your Raspberry Pi will run on.
 -  (Optional) Heat sinks. These are little metal blocks that draw the heat away from the chips on the Raspberry Pi board. A Python program for this project should not heat the Raspberry Pi too much, but it is safe practice to use heat sinks.
 -  (Optional) An external keyboard and a mouse. These two things are optional, because you can use your laptop keyboard and touchpad to issue commands to the Raspberry Pi computer.
+-  A sound file with clock chimes. This file must be in the `.wav` format.
+-  (Optional) A sound-editing program like [Audacity](https://www.audacityteam.org/). This software is needed only if you want to edit the sound file you'll use in this project.
 
 To set up the Raspberry Pi:
 
