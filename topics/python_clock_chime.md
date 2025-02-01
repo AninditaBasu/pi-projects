@@ -108,8 +108,10 @@ play_chime(chime_count)
 | 13 | 1 | 1 | Both methods return the correct hour. |
 | 14 | 2 | 2 | Both methods return the correct hour. |
 | 23 | 11 | 11 | Both methods return the correct hour. |
-| 0 (midnight) | 0 | - 12 | Problem. Solved by using `or 12` in the modulus operation. |
-| 12 (noon) | 0 | 0 | Problem. Solved by using `or 12` in the modulus operation. |
+| 0 (midnight) | 0 | - 12 | Incorrect. Solved by using `or 12` in the modulus operation. |
+| 12 (noon) | 0 | 0 | Incorrect. Solved by using `or 12` in the modulus operation. |
+
+Notice the `or` operater in `chime_count = now.hour % 12 or 12`. This code sets the value of the `chime_count` variable to the modulus value, but if the modulus is zero, sets the `chime_count` value to 12.
 
 
 Now, see this bit near the start of the code:
