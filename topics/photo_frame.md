@@ -60,7 +60,7 @@ Here are the step-by-step guides for these tasks:
 All figures are in Indian Rupees (INR), and inclusive of GST (goods and service tax).
 
 | Item | Amount (INR) |
-| ---- | -----------: |
+| :---- | -----------: |
 | Raspberry Pi 3 Model B | 3,538.82 |
 | 12.5W Official Raspberry Pi Micro USB Power Supply | 708.00 |
 | Raspberry Pi Official 32GB V3.0 , A2 Class Micro SD | 398.84 |
@@ -71,8 +71,8 @@ All figures are in Indian Rupees (INR), and inclusive of GST (goods and service 
 
 ## Alternatives
 
-This project is not the only way that you can get a digital photo frame up and running on a Raspberry Pi. Alternatives are:
+This project is not the only way that you can get a digital photo frame up and running on a Raspberry Pi. Here are some alternatives:
 
--  [PiGallery2](https://bpatrik.github.io/pigallery2/). After you've set up your Raspberry Pi, as descibed in steps 1 through 4 of this project, you must run a server on your Raspberry Pi, and then install and run PiGallery2. See [How to set up Raspberry Pi as a server](https://www.makeuseof.com/set-up-raspberry-pi-as-server/) and [How to install PiGaller2 on Raspberry Pi](https://www.makeuseof.com/how-to-install-and-use-pigallery2-on-your-raspberry-pi/).
+-  [PiGallery2](https://bpatrik.github.io/pigallery2/). After you've set up your Raspberry Pi, as descibed in steps 1 through 4 of this project, you must run a server on your Raspberry Pi, and then install and run PiGallery2. See [How to set up Raspberry Pi as a server](https://www.makeuseof.com/set-up-raspberry-pi-as-server/) :link: and [How to install PiGallery2 on Raspberry Pi :link:](https://www.makeuseof.com/how-to-install-and-use-pigallery2-on-your-raspberry-pi/).
 - [InkyPi](https://github.com/fatihak/InkyPi). After you've set up your Raspberry Pi, as described in steps 2 through 4 of this project, you must attach the Pimoroni Inky Impression display to the Raspberry Pi, and then install and run [InkyPi](https://github.com/fatihak/InkyPi?tab=readme-ov-file#installation).
 - [`imv` package](https://sr.ht/~exec64/imv/). After you've set up your Raspberry Pi, as descibed in steps 1 through 4 of this project, you write a Python script to use the `imv` package, which is a command line image viewer. See [https://pimylifeup.com/raspberry-pi-photo-frame/](https://pimylifeup.com/raspberry-pi-photo-frame/). 
