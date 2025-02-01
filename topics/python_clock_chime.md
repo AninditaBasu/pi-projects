@@ -101,7 +101,16 @@ play_chime(chime_count)
 
 ```
 
-`chime_count` is calculated according to the current hour, as follows: `chime_count = now.hour % 12 or 12`. The modulus function ensures that the remainder of the division operation is picked. So, if the hour now is `13`, the modulus is `1` (because 13 divided by 12 has a remainder of 1), and the chime is played once.
+`chime_count` is calculated according to the current hour, as follows: `chime_count = now.hour % 12 or 12`. The reason for using a modulus operation rather than a substraction operation (like `chime_count = now.hour - 12`) is explained in the following table.
+
+|`now.hour`| Modulus (`now.hour % 12`) | Substraction (`now.hour - 12`) | Notes |
+|----------|---------|-------------|-------|
+| 13 | 1 | 1 | Both methods return the correct hour. |
+| 14 | 2 | 2 | Both methods return the correct hour. |
+| 23 | 11 | 11 | Both methods return the correct hour. |
+| 0 (midnight) | 0 | - 12 | Problem. Solved by using `or 12` in the modulus operation. |
+| 12 (noon) | 0 | 0 | Problem. Solved by using `or 12` in the modulus operation. |
+
 
 Now, see this bit near the start of the code:
 

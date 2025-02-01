@@ -33,7 +33,7 @@ blockquote {
 
 
 code {
-  font-family: "Ubuntu Mono", "Monaspace", "JetBrains Mono", "Consolas", monospace;
+  font-family: Ubuntu Mono, Monaspace, JetBrains Mono, Consolas, monospace;
   color: crimson;
   background-color: #f1f1f1;
   padding: 2px;
@@ -42,7 +42,7 @@ code {
 
 pre {
   display: block;
-  font-family: "Ubuntu Mono", "Monaspace", "JetBrains Mono", "Consolas", monospace;
+  font-family: Ubuntu Mono, Monaspace, JetBrains Mono, Consolas, monospace;
   white-space: pre;
   color: crimson;
   background-color: #f1f1f1;
@@ -74,12 +74,12 @@ body {
 	line-height: 190%;
 	padding-left: 20px;
 	padding-right: 20px;
-	font-family: Lucida Console, Verdana, sans-serif;
+	font-family: Electra, Caluna, Baskerville, serif;
 	background-color: #f4ecf7;
 }
 
 * {
-    font-family: Lucida Console, Verdana, sans-serif;
+    font-family: Electra, Caluna, Baskerville, serif;
   }
 
 .nav {
