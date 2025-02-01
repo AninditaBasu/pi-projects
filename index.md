@@ -3,8 +3,6 @@ layout: template_indexFile
 title: Pi Projects Home
 ---
 
-## Tutorials
-
 <div class="grid-container">
   <div><img src = "images/logo.png" width="50%" /></div>
   <div>
@@ -21,5 +19,7 @@ title: Pi Projects Home
 </div>
 
 <hr/>
+
+## Navigation
 
 {% include mermaid_navigation_flowchart.md %}
