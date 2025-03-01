@@ -17,7 +17,7 @@ def get_image_files(directory):
 def digital_photo_frame():
     # Directories to scan for images
     local_dir = os.getcwd()  # Current working directory
-    usb_dir = '/media/pi/'  # The USB mount path in the Pi
+    usb_dir = '/media/pi/'  # The USB mount path in the Raspberry Pi
     # Collect all image files
     images = get_image_files(local_dir) + get_image_files(usb_dir)
     if not images:
@@ -25,7 +25,7 @@ def digital_photo_frame():
         return
     # Create a Tkinter window
     root = tk.Tk()
-    root.title('Pi Photo Frame') # The title doesn't matter; it won't be displayed
+    root.title('Raspberry Pi Photo Frame') # The title doesn't matter; it won't be displayed
     # Fullscreen settings (optional)
     root.attributes('-fullscreen', True)
     root.bind("<Escape>", lambda e: root.destroy())  # Exit fullscreen with the Esc key

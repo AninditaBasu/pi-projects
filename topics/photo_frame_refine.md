@@ -36,7 +36,7 @@ Add a touch button to stop the Python script. The script you're using now can be
 -  To power down the Raspberry Pi.
 -  To load more photos on to the flash drive, in which case you must eject the drive, load the files into it, and then insert it back into the Raspberry Pi.
 
-Here's the ([code with stop-on-touch function](https://raw.githubusercontent.com/AninditaBasu/pi-projects/refs/heads/main/_includes/pyscript_photo_frame_touch_stop.py)). 
+Here's the [code with stop-on-touch function](https://raw.githubusercontent.com/AninditaBasu/pi-projects/refs/heads/main/_includes/pyscript_photo_frame_touch_stop.py). 
 
 Notice the lines 44 through 50. These lines contain the code to stop the program with a touch or by clicking the left mouse-button. You add a small blue square near the bottom left corner, and you bind this square to the Stop action.
 

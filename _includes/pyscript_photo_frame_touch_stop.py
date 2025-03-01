@@ -25,7 +25,7 @@ def digital_photo_frame():
         return
     # Create a Tkinter window
     root = tk.Tk()
-    root.title('Pi Photo Frame') # The title doesn't matter; it won't be displayed
+    root.title('Raspberry Pi Photo Frame') # The title doesn't matter; it won't be displayed
     # Fullscreen settings (optional)
     root.attributes('-fullscreen', True)
     root.bind("<Escape>", lambda e: root.destroy())  # Exit fullscreen with Escape key
