@@ -28,8 +28,8 @@ In this tutorial, I show you how to use a Raspberry Pi 4 computer and an externa
 
 For the chimes:
 
--  A Raspberry Pi 4B computer. This little computer board will hold the code that makes the chimes ring out every half hour and hour. Strictly speaking, you don't need a Raspberry Pi 4B computer; an older model will work excellently too **\*** because this project doesn't need much computing power. But I was already using my Raspberry Pi 4B for something else, so I deployed this project on it. Any Raspberry Pi model that has a 3.5 mm audio port will work **\***.
--  A speaker. For this project, I used a Honeywell soundbar, but you can use any speaker that has a 3.5 mm audio jack and is externally powered :electric_plug: through a separate plug point **\*\***.
+-  A Raspberry Pi 4B computer. This little computer board will hold the code that makes the chimes ring out every half hour and hour. Strictly speaking, you don't need a Raspberry Pi 4B computer; an older model will work excellently too because this project doesn't need much computing power. But I was already using my Raspberry Pi 4B for something else, so I deployed this project on it. Any Raspberry Pi model that has a 3.5 mm audio port will work (see Note 1 later on this page).
+-  A speaker. For this project, I used a Honeywell soundbar, but you can use any speaker that has a 3.5 mm audio jack and is externally powered :electric_plug: through a separate wall socket (see Note 2 later on this page).
 -  A Raspberry Pi official power adapter. Theoretically, any adapter with a USB-C cable that can plug into the Raspberry Pi should work fine. In practice, it's better to get the official power adapter because it's been tested to deliver the exact power that the Raspberry Pi needs.
 -  A microSD card. This tiny card will contain the operating system that your Raspberry Pi will run on.
 -  (Optional) Heat sinks. These are little metal blocks that draw the heat away from the chips on the Raspberry Pi board. A Python program for this project should not heat the Raspberry Pi too much, but it is safe practice to use heat sinks.
@@ -62,18 +62,18 @@ All figures are in Indian Rupees (INR), and inclusive of GST (goods and service 
 
 | Item | Amount (INR) |
 | :---- | -----------: |
-| Raspberry Pi 4 8GB **\*** | 8,999.00 |
+| Raspberry Pi 4 8GB (see Note 1)| 8,999.00 |
 | 15.3W USB-C Power Supply - Official (For Raspberry Pi 4) | 672.60 |
 | Amazon Basics 32GB MicroSDHC Memory Card with Adapter | 369.00 |
 | Aluminium Heat Sink | 35.40 |
-| Honeywell Moxie V500 10W Portable USB Wired Soundbar **\*\*** | 789.00 |
+| Honeywell Moxie V500 10W Portable USB Wired Soundbar (see Note 2)| 789.00 |
 | | **10,865.00**|
 
-**\*** You can also use a Raspberry Pi 4 model with lesser RAM. One with 1GB, which is sufficient to run the chiming script, costs INR 3,599.00, which is almost 30% cheaper than the model used in this tutorial. You can use an older Raspberry Pi model too, so long as you can plug a 3.5 mm audio jack in it. Here are some options:
+**Note 1**: You can also use a Raspberry Pi 4 model with lesser RAM. One with 1GB, which is sufficient to run the chiming script, costs INR 3,599.00, which is almost 30% cheaper than the model used in this tutorial. You can use an older Raspberry Pi model too, so long as you can plug a 3.5 mm audio jack in it. Here are some options:
 -  Raspberry Pi Zero 2W (INR 1,569.00), with a USB2-to-audio-port coupler. Alternatively, use the mini-HDMI port to connect to a monitor that has inbuilt speakers.
 -  Raspberry Pi 3A (INR 2,559.00) or Raspberry Pi 3B (INR 3,598.00), which already have an audio port.
 
-**\*\*** You can use any externally powered speaker that has a 3.5 mm audio jack.
+**Note 2**: You can use any externally powered speaker that has a 3.5 mm audio jack.
 
 ## Alternatives
 

@@ -8,12 +8,12 @@ updated: Feb 1, 2025
 
 # {{ page.title }}
 
-A digital photo frame is an LED device that can display pictures. It's similar to an LCD TV, inasmuch as you can plug in a USB flash drive to the TV's port and view the pictures. A photo frame is, however, not as large as a typical TV. Quite a few digital frames also have speakers, just like TVs do, so that you can view movie clips on it as well. Unlike a TV, where you must scroll through the pictures manually, a digital photo frame can be configured to display pictures in a continuous loop, advancing to the next picture after a specified time period.
+A digital photo frame is an LED device that can display pictures. It's similar to an LCD TV, inasmuch as you can plug in a USB flash drive to the TV port and view the pictures. A photo frame, however, isn't as large as a typical TV. Quite a few digital frames also have speakers, just like TVs do, so that you can view movie clips as well. Unlike a TV, where you must scroll through the pictures manually, a digital photo frame can be configured to display pictures in a continuous loop, advancing to the next picture after a specified time period.
 
 <a href = "../images/frame_in_action_1.jpeg"><img src = "../images/frame_in_action_1.jpeg" width="50%" /></a><br/>
 <span style="font-size:75%;">To see a larger image, click the image.</span>
 
-In this tutorial, I show you how to use a Raspberry Pi 3B+ computer and a Raspberry Pi Touch Display to make a digital photo frame. Along the way, I explain how to set up a headless Raspberry Pi computer, connect it to a touch display, and then run Python on it. It doesn't matter if you don't know Python, because I'll provide the entire code for you to copy and use. If you do know Python, you can tweak the code to include the enhancements that I'll suggest at the end of the tutorial.
+In this tutorial, I show you how to use a Raspberry Pi 3B+ computer and a Raspberry Pi Touch Display to make a digital photo frame. Along the way, I explain how to set up a headless Raspberry Pi computer, connect it to a screen, and then run Python on it. It doesn't matter if you don't know Python, because I'll provide the entire code for you to use. If you do know Python, you can tweak the code to include the enhancements that I'll suggest at the end of the tutorial.
 
 -  [Materials](#materials)
 -  [Steps](#steps)
@@ -74,5 +74,5 @@ All figures are in Indian Rupees (INR), and inclusive of GST (goods and service 
 This project is not the only way that you can get a digital photo frame up and running on a Raspberry Pi. Here are some alternatives:
 
 -  [PiGallery2](https://bpatrik.github.io/pigallery2/). After you've set up your Raspberry Pi, as descibed in steps 1 through 4 of this project, you must run a server on your Raspberry Pi, and then install and run PiGallery2. See [How to set up Raspberry Pi as a server :arrow_upper_right:](https://www.makeuseof.com/set-up-raspberry-pi-as-server/) and [How to install PiGallery2 on Raspberry Pi :arrow_upper_right:](https://www.makeuseof.com/how-to-install-and-use-pigallery2-on-your-raspberry-pi/).
-- [InkyPi](https://github.com/fatihak/InkyPi). After you've set up your Raspberry Pi, as described in steps 2 through 4 of this project, you must attach the Pimoroni Inky Impression display to the Raspberry Pi, and then install and run [InkyPi :arrow_upper_right:](https://github.com/fatihak/InkyPi?tab=readme-ov-file#installation).
+- [InkyPi](https://github.com/fatihak/InkyPi). After you've set up your Raspberry Pi, as described in steps 1 through 4 of this project, you must attach the Pimoroni Inky Impression display to the Raspberry Pi, and then install and run [InkyPi :arrow_upper_right:](https://github.com/fatihak/InkyPi?tab=readme-ov-file#installation).
 - [`imv` package](https://sr.ht/~exec64/imv/). After you've set up your Raspberry Pi, as descibed in steps 1 through 4 of this project, you write a Python script to use the `imv` package, which is a command line image viewer. See [Photo frame :arrow_upper_right:](https://pimylifeup.com/raspberry-pi-photo-frame/). 

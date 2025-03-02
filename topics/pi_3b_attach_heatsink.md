@@ -10,7 +10,7 @@ updated: Jan 21, 2025
 
 # {{ page.title }}
 
-A heat sink is a metal square object that is attached to a Raspberry Pi board by means of thermal paste. It draws the heat away from the processor, the USB controller, and the ethernet controller. A photo frame program running on a Raspberry Pi 3B+ should not heat the little computer too much, but it is safe practice to use heat sinks. 
+A heat sink is a square, metal object that is attached to a Raspberry Pi board by means of thermal paste. It draws the heat away from the processor, the USB controller, and the ethernet controller. A photo frame program running on a Raspberry Pi 3B+ should not heat the little computer too much, but it is safe practice to use heat sinks. 
 
 The three small corrugated squares that you see at the bottom left of the image are heat sinks. In the Raspberry Pi world, these corrugations are known as fins.
 

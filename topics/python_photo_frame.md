@@ -42,6 +42,8 @@ The operating system that you installed on the Raspberry Pi already includes Pyt
   Your browser does not support the video tag.
 </video>
 
+Your photo frame is now ready. You can leave it as is now, or you might choose to [refine it](photo_frame_refine.md). 
+
 <hr/>
 
 ## The code, raw
