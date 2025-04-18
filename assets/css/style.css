@@ -35,7 +35,7 @@ blockquote {
 code {
   font-family: Ubuntu Mono, Monaspace, JetBrains Mono, Consolas, monospace;
   color: black;
-  background-color: #DD89C4;
+  background-color: #f8f9f9;
   padding: 2px;
   font-size: 90%;
 }
@@ -45,7 +45,7 @@ pre {
   font-family: Ubuntu Mono, Monaspace, JetBrains Mono, Consolas, monospace;
   white-space: pre;
   color: black;
-  background-color: #DD89C4;
+  background-color: #f8f9f9;
   padding: 2px;
   font-size: 90%;
 } 
