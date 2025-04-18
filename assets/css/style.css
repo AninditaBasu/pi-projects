@@ -7,15 +7,15 @@ h1, h2, h3, h4, h5, h6 {color:#7B82B2;}
 hr { 
   display: block;
   border-width: 1px;
-  border-color: #2c3e50;
+  border-color: #7B82B2;
 } 
 
 header {
   font-family: Lucida Console, Verdana, sans-serif;
-  color: #bdc3c7;
+  color: #D5AF76;
   font-size: 24px;
   padding: 20px;
-  background-color: #2c3e50;
+  background-color: #7B82B2;
 }
 
 footer {
@@ -38,8 +38,8 @@ blockquote {
 
 code {
   font-family: Ubuntu Mono, Monaspace, JetBrains Mono, Consolas, monospace;
-  color: crimson;
-  background-color: #f1f1f1;
+  color: black;
+  background-color: #DD89C4;
   padding: 2px;
   font-size: 90%;
 }
@@ -48,8 +48,8 @@ pre {
   display: block;
   font-family: Ubuntu Mono, Monaspace, JetBrains Mono, Consolas, monospace;
   white-space: pre;
-  color: crimson;
-  background-color: #f1f1f1;
+  color: black;
+  background-color: #DD89C4;
   padding: 2px;
   font-size: 90%;
 } 
@@ -65,19 +65,19 @@ pre {
 */
 
 table {
-  border: 1px solid #2c3e50;
+  border: 1px solid #7B82B2;
   border-collapse: collapse;
   padding: 2px;
   font-family: monospace;
 }
 th {
-  border: 1px solid #2c3e50;
+  border: 1px solid #7B82B2;
   border-collapse: collapse;
   padding: 2px;
-  color: #2c3e50;
+  color: #7B82B2;
 }
 td {
-  border: 1px solid #2c3e50;
+  border: 1px solid #7B82B2;
   border-collapse: collapse;
   padding: 2px;
 }
@@ -87,7 +87,7 @@ body {
 	padding-left: 20px;
 	padding-right: 20px;
 	font-family: Electra, Caluna, Baskerville, serif;
-	background-color: #C3CFDC;
+	background-color: #DFD7BD;
 }
 
 * {
