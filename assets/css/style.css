@@ -33,7 +33,7 @@ blockquote {
 
 
 code {
-  font-family: Ubuntu Mono, Monaspace, JetBrains Mono, Consolas, monospace;
+  font-family: Consolas, monospace;
   color: black;
   background-color: #f8f9f9;
   padding: 2px;
@@ -42,7 +42,7 @@ code {
 
 pre {
   display: block;
-  font-family: Ubuntu Mono, Monaspace, JetBrains Mono, Consolas, monospace;
+  font-family: Consolas, monospace;
   white-space: pre;
   color: black;
   background-color: #f8f9f9;
@@ -52,7 +52,7 @@ pre {
 
 /*
 .language-python {
-  font-family: Ubuntu Mono, Monaspace, JetBrains Mono, Consolas, monospace;
+  font-family: Consolas, monospace;
   color: crimson;
   background-color: #f1f1f1;
   padding: 2px;
@@ -61,19 +61,19 @@ pre {
 */
 
 table {
-  border: 1px solid #7B82B2;
+  border: 1px solid #0b5345;
   border-collapse: collapse;
   padding: 2px;
   font-family: monospace;
 }
 th {
-  border: 1px solid #7B82B2;
+  border: 1px solid #0b5345;
   border-collapse: collapse;
   padding: 2px;
   color: #7B82B2;
 }
 td {
-  border: 1px solid #7B82B2;
+  border: 1px solid #0b5345;
   border-collapse: collapse;
   padding: 2px;
 }
