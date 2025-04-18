@@ -1,21 +1,17 @@
-/*
-The thinking behind the colour palette is 
-given at the bottom of this file.
-*/
-h1, h2, h3, h4, h5, h6 {color:#7B82B2;}
+h1, h2, h3, h4, h5, h6 {color:#0b5345;}
 
 hr { 
   display: block;
   border-width: 1px;
-  border-color: #7B82B2;
+  border-color: #eb984e;
 } 
 
 header {
   font-family: Lucida Console, Verdana, sans-serif;
-  color: #D5AF76;
+  color: #eb984e;
   font-size: 24px;
   padding: 20px;
-  background-color: #7B82B2;
+  background-color: #0b5345;
 }
 
 footer {
@@ -120,31 +116,3 @@ body {
 .item1 {
   grid-area: 1 / 2 / span 3 / span 1;
 }
-
-/*
-The colours are inspired from Claude Monet's Wheatfield (1881).
-https://sammlung.museum-barberini.de/en/MB-Mon-09_claude-monet-wheatfield
-
-Hex color codes that are a close approximation of the painting's dominant hues
-are as follows:
-
-1. Wheatfield Beige – #DFD7BD
-A warm, muted wheat tone representing the sunlit field.
-
-2. Golden Ochre – #D5AF76
-A soft golden hue capturing the ripened wheat.
-
-3. Sky Blue – #C3CFDC
-A pale, airy blue reflecting the expansive sky.
-
-4. Pastel Lilac – #DD89C4
-A gentle lilac tone, possibly representing distant flora or atmospheric effects.
-
-5. Soft Green – #85F08C
-A light green shade indicative of vegetation in the field.
-
-6. Muted Blue – #7B82B2
-A subdued blue tone, perhaps illustrating shadows or distant elements.
-
-
-*/
