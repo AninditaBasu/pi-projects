@@ -28,13 +28,13 @@ The operating system that you installed on the Raspberry Pi already includes `li
 1.  Install any patches, fixes, and upgrades that might have been made to the operating system by opening the Raspberry Pi terminal window (the console icon near the top left) and running the following two commands one after the other:
     -  `sudo apt-get update`
 	-  `sudo apt-get upgrade`
-1.  Open a terminal window by clicking the Terminal icon near the top left. At the prompt, go to the `Videos` directory by typing the following command: `cd ~/Videos`.
-1.  Open a new file by typing the following command: `nano simplevideo.sh`. The built-in code editor opens. 
+1.  Open a terminal window by clicking the Terminal icon near the top left. At the prompt, go to the `Videos` directory by typing the following command: `cd ~/Videos`. This is the directory that will contain the bash script and the videos.
+1.  Open a new file by typing the following command: `nano simplevideo.sh`. The built-in code editor, called `nano`, opens. 
 1.  Copy into it the code from [The script, plain](#the-script-plain) section of this page. Then, save the file and exit the nano editor by doing these steps:
     1.  Press Ctrl + O. The editor displays the name that the file should be saved with. You've already specified it to be `simplevideo.sh`.
 	1.  Press Enter. The file is saved.
 	1.  Press Ctrl + X. You're taken back to the command prompt.
-1.  Make the bash script executable by typing the following command: `chmod +x simplecam.sh`.
+1.  Turn the bash script into an executable file by typing the following command: `chmod +x simplecam.sh`.
 1.  Run the file by typing the following command: `./simplecam.sh`. You should start seeing some messages on the screen.
 
 Go to the directory where your videos are being saved (Click the File Manager icon near the top left). To view the a video file, double-click the file.
