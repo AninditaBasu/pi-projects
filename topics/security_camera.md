@@ -8,9 +8,9 @@ updated: Apr 20, 2025
 
 # {{ page.title }}
 
-Lakshman, as the story goes, didn's sleep a wink for 14 years. During the day, he'd hunt with his elder brother, the exiled prince Ram, and during the night, he'd stand outside the leaf hut he'd built for his brother and sis-in-law, keeping an eye out for wandering evil elements. 
+Lakshman, as the story goes, didn't sleep a wink for 14 years. During the day, he'd hunt with his elder brother, the exiled prince Ram, and during the night, he'd stand outside the leaf-hut he'd built for the prince and his wife, keeping an eye out for wandering evil elements. 
 
-What if you had your very own kid brother Lakshman constantly keeping vigil outside your door?
+What if you too had your very own kid brother, like Lakshman, constantly keeping vigil outside your door?
 
 
 <video width="40%" height="40%" controls>
@@ -18,7 +18,7 @@ What if you had your very own kid brother Lakshman constantly keeping vigil outs
   Your browser does not support the video tag.
 </video> 
 
-In this tutorial, I show you how to use a Raspberry Pi Zero W computer and a Camera Module 3 to build a surveillance camera. Along the way, I explain how to set up a headless Raspberry Pi computer, and write a bash script on it.
+In this tutorial, I show you how to use a Raspberry Pi Zero WH computer and a Camera Module 3 to build a surveillance camera. Along the way, I explain how to set up a headless Raspberry Pi computer, and write a bash script on it.
 
 -  [Materials](#materials)
 -  [Steps](#steps)
@@ -33,7 +33,7 @@ For the security camera:
 
 -  A Raspberry Pi Zero W computer. This little computer board will hold the code that makes the chimes ring out every half hour and hour. The Raspberry Pi Zero is the smallest computer in the Raspberry Pi stable, and it is good enough for this project.
 -  A Raspberry Pi Camera Module 3. For this project, I could've used an older camera module such as the Camera Module 2, which is lighter on the system resources (and the Raspberry Pi Zero hardly has any), but it doesn't support the `libcamera` package, which is going to be the officially supported package now .
--  A Raspberry Pi official power adapter. Theoretically, any adapter with a USB-C cable that can plug into the Raspberry Pi should work fine. In practice, it's better to get the official power adapter because it's been tested to deliver the exact power that the Raspberry Pi needs.
+-  A Raspberry Pi official power adapter. Theoretically, any adapter with a microUSB cable that can plug into the Raspberry Pi should work fine. In practice, it's better to get the official power adapter because it's been tested to deliver the exact power that the Raspberry Pi needs.
 -  A microSD card. This tiny card will contain the operating system that your Raspberry Pi will run on.
 -  (Optional) An external keyboard and a mouse. These two things are optional, because you can use your laptop keyboard and touchpad to issue commands to the Raspberry Pi computer.
 
@@ -71,4 +71,4 @@ All figures are in Indian Rupees (INR), and inclusive of GST (goods and service 
 
 ## Alternatives
 
-Any of the plug-and-play security cameras available off the shelf.
+Any of the plug-and-play security cameras available off the shelf. They're more expensive, but have all the bells and whistles.

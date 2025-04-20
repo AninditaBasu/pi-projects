@@ -13,12 +13,12 @@ updated: Apr 20, 2025
 
 # {{ page.title }}
 
-Do you see the tiny microSD card near the bottom center of the computer board? 
+Do you see the tiny SanDisk Ultra microSD card near the bottom center of the computer board? 
 
 <a href = "../images/pi_zero.jpeg"><img src = "../images/pi_zero.jpeg" width="50%" /></a><br/>
 <span style="font-size:75%;">To see a larger image, click the image.</span>
 
-The operating system will be downloaded on to that card, which will then be inserted into the microSD slot of the Raspberry Pi. That's what will get this little computer up and running, and make it available for you for the final steps of your project.
+The operating system will be downloaded on to that card, which will then be inserted into the microSD slot of the Raspberry Pi. That's what will get this little computer up and running, and make it ready for the project.
 
 <hr/>
 

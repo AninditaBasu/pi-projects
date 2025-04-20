@@ -14,4 +14,4 @@ Before you can use your laptop to run a Raspberry Pi OS installation, make sure 
 -  {% include download_ip_scanner.md%}
 -  {% include download_putty.md%}
 
-You are now ready to install an operating system on your [Raspberry Pi 3B+](pi_3b_install_os.md) or [Raspberry Pi 4](pi_4_install_os.md).
+You are now ready to install an operating system on your [Raspberry Pi Zero W](pi_zero_install_os.md),  [Raspberry Pi 3B+](pi_3b_install_os.md), or [Raspberry Pi 4](pi_4_install_os.md).
