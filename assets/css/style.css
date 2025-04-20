@@ -63,19 +63,19 @@ pre {
 table {
   border: 1px solid #0b5345;
   border-collapse: collapse;
-  padding: 2px;
+  padding: 4px;
   font-family: monospace;
 }
 th {
   border: 1px solid #0b5345;
   border-collapse: collapse;
-  padding: 2px;
-  color: #7B82B2;
+  padding: 4px;
+  color: #0b5345;
 }
 td {
   border: 1px solid #0b5345;
   border-collapse: collapse;
-  padding: 2px;
+  padding: 4px;
 }
 
 body {
