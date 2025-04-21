@@ -34,8 +34,8 @@ The operating system that you installed on the Raspberry Pi already includes `li
     1.  Press Ctrl + O. The editor displays the name that the file should be saved with. You've already specified it to be `simplevideo.sh`.
 	1.  Press Enter. The file is saved.
 	1.  Press Ctrl + X. You're taken back to the command prompt.
-1.  Turn the bash script into an executable file by typing the following command: `chmod +x simplecam.sh`.
-1.  Run the file by typing the following command: `./simplecam.sh`. You should start seeing some messages on the screen.
+1.  Turn the bash script into an executable file by typing the following command: `chmod +x simplevideo.sh`.
+1.  Run the file by typing the following command: `./simplevideo.sh`. You should start seeing some messages on the screen.
 
 Go to the directory where your videos are being saved (Click the File Manager icon near the top left). To view the a video file, double-click the file.
 

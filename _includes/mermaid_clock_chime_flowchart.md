@@ -1,6 +1,6 @@
 <div class="mermaid">
 flowchart LR
-    A("Fix the heat sinks on Raspberry Pi (optional)") --> B(Prepare your laptop)
+    A("(Optional) Fix the heat sinks on Raspberry Pi") --> B(Prepare your laptop)
     B --> C(Install an operating system on Raspberry Pi)
     C --> D(Write the Python code on Raspberry Pi)
 	

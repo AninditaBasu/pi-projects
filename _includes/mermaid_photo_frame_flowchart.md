@@ -1,10 +1,10 @@
 <div class="mermaid">
 flowchart LR
-    A(Connect the touch display to Raspberry Pi) --> B("Fix the heat sinks on Raspberry Pi (optional)")
+    A(Connect the touch display to Raspberry Pi) --> B("(Optional) Fix the heat sinks on Raspberry Pi")
     B --> C(Prepare your laptop)
     C --> D(Install an operating system on Raspberry Pi)
     D --> E(Write the Python code on Raspberry Pi)
-	E --> F("Refine the project (optional)")
+	E --> F("(Optional) Refine the project")
 	
 	click A "https://aninditabasu.github.io/pi-projects/topics/pi_3b_attach_display.html"
 	click B "https://aninditabasu.github.io/pi-projects/topics/pi_3b_attach_heatsink.html"

@@ -1,7 +1,7 @@
 ---
 layout: template_generalFiles
-title: Security camera
-description: Surveillance camera setup with Raspberry Pi Zero and Camera Module 3
+title: Security system
+description: Surveillance setup with Raspberry Pi Zero and Camera Module 3
 created: Apr 20, 2025
 updated: Apr 20, 2025
 ---
