@@ -39,9 +39,9 @@ For the security camera:
 
 To set up the Raspberry Pi:
 
--  A laptop (or desktop), with a microSD port. If your laptop does not have this port, you need a microSD card reader that you can plug into laptop. After the Raspberry Pi is set up and the photo frame is working, you'll no longer need the laptop.
+-  A laptop (or desktop), with a microSD port. If your laptop does not have this port, you need a microSD card reader that you can plug into laptop. After the Raspberry Pi is set up and the camera is working, you'll no longer need the laptop unless you want to access the setup again.
 -  Administrator privileges on the laptop, so that you can download all the required software on it.
--  An internet connection. After the set up is complete, this project does not need an internet connection.
+-  An internet connection. After the set up is complete and the camera switched on, this project does not need an internet connection unless you want to access the setup again.
 
 ## Steps
 
@@ -51,8 +51,8 @@ Here are the step-by-step guides for these tasks:
 
 1.  [Make your laptop ready](set_up_laptop.md) for setting up the Raspberry Pi.
 1.  [Install an operating system](pi_zero_install_os.md) on the Raspberry Pi.
-1.  Write the bash script code for recording videos.
-1.  (Optional) Refine the project.
+1.  [Write the bash script](bash_security_camera.md) for recording videos.
+1.  (Optional) [Refine the project](security_camera_refine.md).
 
 {% include mermaid_security_cam_flowchart.md %}
 

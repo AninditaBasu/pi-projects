@@ -17,6 +17,7 @@ The operating system that you installed on the Raspberry Pi already includes `li
 -  [The steps](#the-steps)
 -  [The script, plain](#the-script-plain)
 -  [The script, explained](#the-script-explained)
+-  [Troubleshooting](#troubleshooting)
 
 <hr/>
 
@@ -82,3 +83,14 @@ What's happening here that a video is being saved every 1 minute to the location
 -  `--bitrate 1000000`: Sets the video compression level to 1,000,000 bits per second (that is, 1 Mbps). A higher bitrate means better video quality but larger files. For better visuals, you could increase this to 3000000.
 -  `----timeout $DURATION`: This sets how long the video recording lasts in milliseconds. You've already specified the value through the `$DURATION` variable.
 -  `-o "$SAVE_PATH/ve_$TIMESTAMP.h264"`: Specifies where to save the video file and with what name. `"$SAVE_PATH"` is a variable holding your directory (for example, `/home/oracle/Pictures`). `ve_$TIMESTAMP.h264` names the file with a timestamp (like `ve_20250420_135030.h264`). `.h264` is the raw video format. You can convert it to `.mp4` if needed.
+
+## Troubleshooting
+
+**No output**
+
+If you don't see any `test.jpg` in the `Videos` directory, or if you don't see any messages on the terminal window, it's likely that the `libcamera` package wasn't installed properly. Reinstall it by running the following commands one after the other.
+
+1.  Remove the existing packages: `sudo apt purge libcamera0 libcamera-apps libcamera-ipa libcamera0.4`.
+2.  Clean up the cache: `sudo apt autoremove` and then `sudo apt clean`.
+3.  Update the package list: `sudo apt update`.
+4.  Install everything afresh: `sudo apt install libcamera-apps`.

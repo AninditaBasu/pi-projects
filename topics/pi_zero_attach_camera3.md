@@ -17,9 +17,9 @@ The 12-megapixel Camera Module 3 is the latest official camera module.
 
 When you buy the camera module, you get two connector cables:
 -  A white one, which is a 40-pin-to-40-pin cable and made for the Raspberry Pi 3 and Raspberry Pi 4 models
--  A golden pne, which is a 40-pin-to-22-pin cable and made for the Raspberry Pi 5 and Raspberry Pi Zero models.
+-  A golden one, which is a 40-pin-to-22-pin cable and made for the Raspberry Pi 5 and Raspberry Pi Zero models.
 
-In the image, you also see a shorter golden cable. I bought this separately; it's also a 40-pin-to-22-pin but shorter.
+In the image, you also see a shorter golden cable. I bought this separately; it's also a 40-pin-to-22-pin cable but shorter.
 
 For this project, you must attach the camera module to the Raspberry Pi Zero with the golden cable.
  
@@ -33,8 +33,6 @@ For this project, you must attach the camera module to the Raspberry Pi Zero wit
 	1.  Open a terminal window and run the following command: `libcamera-jpeg -o test.jpg`.
 1.  Open **File Manager** (it's one of the icons near the top). You should see a file called `test.jpg`. This means that the camera module was detected and is working fine.
 
-
-
 <hr/>
 
 Here's an YouTube video that shows you the steps in detail:
@@ -43,4 +41,4 @@ Here's an YouTube video that shows you the steps in detail:
 
 <hr/>
 
-After the camera is in place, [write the bash code for the surveillance setup](bash_security_camera.md).
+After the camera is in place, [write the bash code](bash_security_camera.md) for the surveillance setup.
