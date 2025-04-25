@@ -1,9 +1,9 @@
 ---
 layout: template_generalFiles
 title: Security system
-description: Surveillance setup with Raspberry Pi Zero and Camera Module 3
+description: Surveillance setup with Raspberry Pi Zero W and Camera Module 3
 created: Apr 20, 2025
-updated: Apr 20, 2025
+updated: Apr 25, 2025
 ---
 
 # {{ page.title }}
@@ -31,11 +31,10 @@ In this tutorial, I show you how to use a Raspberry Pi Zero WH computer and a Ca
 
 For the security camera:
 
--  A Raspberry Pi Zero W computer. This little computer board will hold the code that makes the chimes ring out every half hour and hour. The Raspberry Pi Zero is the smallest computer in the Raspberry Pi stable, and it is good enough for this project.
+-  A Raspberry Pi Zero W computer. This little computer board will hold the code that makes the videos of your surroundings. The Raspberry Pi Zero is the smallest computer in the Raspberry Pi stable, and it is good enough for this project.
 -  A Raspberry Pi Camera Module 3. For this project, I could've used an older camera module such as the Camera Module 2, which is lighter on the system resources (and the Raspberry Pi Zero hardly has any), but it doesn't support the `libcamera` package, which is going to be the officially supported package now .
 -  A Raspberry Pi official power adapter. Theoretically, any adapter with a microUSB cable that can plug into the Raspberry Pi should work fine. In practice, it's better to get the official power adapter because it's been tested to deliver the exact power that the Raspberry Pi needs.
 -  A microSD card. This tiny card will contain the operating system that your Raspberry Pi will run on.
--  (Optional) An external keyboard and a mouse. These two things are optional, because you can use your laptop keyboard and touchpad to issue commands to the Raspberry Pi computer.
 
 To set up the Raspberry Pi:
 
@@ -45,7 +44,7 @@ To set up the Raspberry Pi:
 
 ## Steps
 
-You make the Raspberry Pi ready by installing an operating system on it, and write a script to play the chimes.
+You make the Raspberry Pi ready by installing an operating system on it, and write a script to continuously record videos.
 
 Here are the step-by-step guides for these tasks:
 

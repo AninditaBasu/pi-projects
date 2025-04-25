@@ -3,7 +3,7 @@ layout: template_generalFiles
 title: Write the bash code for the surveillance camera
 description: Use the inbuilt libcamera package for Raspberry Pi to continuously record the surroundings
 created: Apr 20, 2025
-updated: Apr 20, 2025
+updated: Apr 25, 2025
 ---
 
 {% include mermaid_security_cam_flowchart.md %}
@@ -23,9 +23,10 @@ The operating system that you installed on the Raspberry Pi already includes `li
 
 ## The steps
 
-1.  If you don't have an external keyboard or mouse, log in remotely to your Raspberry Pi by using Connect:
+1.  Switch on the Raspberry Pi and wait for the green light to stop flashing.
+1.  Log in remotely to your Raspberry Pi by using Connect:
     1.  On your laptop, open `https://connect.raspberrypi.com/` and sign in.
-	1.  On the Devices page, click **Connect via > Screen sharing**, and wait for a few seconds for the remote session to start. You should then see the Raspberry Pi desktop in your laptop browser window.
+	1.  On the Devices page, you should see your Raspberry Pi. If it isn't, wait for a few minutes and refresh the page.  Then, click **Connect via > Screen sharing**, and wait for a few seconds for the remote session to start. You should then see the Raspberry Pi desktop in your laptop browser window.
 1.  Install any patches, fixes, and upgrades that might have been made to the operating system by opening the Raspberry Pi terminal window (the console icon near the top left) and running the following two commands one after the other:
     -  `sudo apt-get update`
 	-  `sudo apt-get upgrade`
