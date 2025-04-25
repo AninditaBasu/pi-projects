@@ -13,7 +13,7 @@ updated: Apr 25, 2025
 
 # {{ page.title }}
 
-The following image shows the three things that you need for the project: a power supply, a Raspberry Pi Zero W board, and a microSD card.  
+The following image shows the three (of the four) things that you need for the project: a power supply, a Raspberry Pi Zero W board, and a microSD card.  
 
 <a href = "../images/pi_zero.jpeg"><img src = "../images/pi_zero.jpeg" width="50%" /></a><br/>
 <span style="font-size:75%;">To see a larger image, click the image.</span>
@@ -40,7 +40,7 @@ An operating system will be downloaded on to this microSD card, which will then 
 	1.  Generate a link that will connect your Raspberry Pi computer with your Connect account by running the following command from the terminal: `rpi-connect signin`. You're shown a sign-in URL on the terminal.
 	1.  On your laptop, open a browser, type the URL shown on the Raspberry Pi terminal window, and follow the onscreen prompts to complete the signin and authentication process.
 	1.  In the same browser window, specify a name to identify your device, and click **Create device and sign in**. 
-1.  If you're not immediately proceeding to the next step, shut down the Raspberry Pi by typing the following command on the terminal: `sudo shutdown -h now`. You should be disconnected from Raspberry Pi and the terminal window should disappear.  Wait till the green light on the Raspberry Pi board stops flashing, and then switch off the power supply.
+1.  Shut down the Raspberry Pi by typing the following command on the terminal: `sudo shutdown -h now`. You should be disconnected from Raspberry Pi and the terminal window should disappear.  Wait till the green light on the Raspberry Pi board stops flashing, and then switch off the power supply.
 
-Now that your Raspberry Pi is ready to be used as a computer, you can proceed to attaching the camera module to it.
+Now that your Raspberry Pi is ready to be used as a computer, you can proceed to [attaching the camera module to it](pi_zero_attach_camera3.md).
 
