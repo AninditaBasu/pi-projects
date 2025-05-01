@@ -6,7 +6,7 @@ title: Pi Projects Home
 <div class="grid-container">
   <div><img src = "images/logo.png" width="50%" /></div>
   <div>
-  <p>These projects assume you've never used a Raspberry Pi before, have little to none programming knowledge, and aren't particularly aligned towards tinkering with machines. Like me :penguin:</p>.
+  <p>These projects assume you've never used a Raspberry Pi before, have little to none programming knowledge, and aren't particularly aligned towards tinkering with machines. Like me :penguin:.</p>
   <ul>
   <li>Raspberry Pi Zero 2W
 	<ul>
