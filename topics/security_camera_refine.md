@@ -12,7 +12,7 @@ Now that your surveillance camera is working, consider the following enhancement
 
 -  [Never lose a frame](#never-lose-a-frame)
 -  [Keep cool](#keep-cool)
--  [Stop elegantly](stop-elegantly)
+-  [Stop elegantly](#stop-elegantly)
 
 ## Never lose a frame
 

@@ -13,7 +13,7 @@ updated: May 1, 2025
 
 # {{ page.title }}
 
-The following image shows the three (of the four) things that you need for the project: a power supply, a **{{page.pimodel}}** board, and a microSD card.  
+The following image shows the three (of the four) things that you need for the project: a power supply, a {{page.pimodel}} board, and a microSD card.  
 
 <a href = "../images/pi_zero.jpeg"><img src = "../images/pi_zero.jpeg" width="50%" /></a><br/>
 <span style="font-size:75%;">To see a larger image, click the image.</span>
@@ -25,8 +25,8 @@ An operating system will be downloaded on to this microSD card, which will then 
 ## Steps
 
 {% include install_os.md %}
-1.  Insert the microSD card to the Raspberry Pi's board, plug in the power adapter to a wall socket, and insert the cable into the USB-C power slot of the Raspberry Pi.
-1.  Turn on the power switch of the wall socket. The light on the Raspberry Pi board should glow green.
+1.  On the Raspberry Pi, locate the microSD card slot (it's midway between the mini-HDMI port and the header pins) and insert the microSD card into the slot.
+1.  Plug in the Raspberry Pi power adapter to a wall socket, and insert the cable into the USB-C power slot of the Raspberry Pi. Turn on the power switch of the wall socket. The light on the Raspberry Pi board should glow green.
 1.  Log in to the Raspberry Pi from your laptop:
     1.  Find the IP address of your nework gateway. To do so, on your laptop, open the command prompt, and type `ipconfig`. Then, note down the value that's displayed as **Default Gateway**.
     1.  Start Angry IP Scanner. For the first box in the **IP Range** field, specify the value of the default gateway that you noted down in the previous step. For the second field, specify a number that's about 15-20 stops away. For example, if your default gateway is `192.168.4.1`, specify the end range to be something around `192.168.4.15`, so that the scan doesn't take too long. (The assumption here is that you don't already have more than 15-20 devices connected to your network!) Click **Start** and wait for the scan to be over. Then, in the **Hostname** column, look for the name of your Raspberry Pi. This is the name that you specified as the hostname in the OS Customisation settings while downloading the operating system on the microSD card. When you've spotted this hostname, look for the entry in the **IP** column. You need this value in the next step. ![network scan](ip_scanner.png)
