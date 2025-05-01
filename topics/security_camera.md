@@ -3,12 +3,12 @@ layout: template_generalFiles
 title: Security system
 description: Surveillance setup with Raspberry Pi Zero W and Camera Module 3
 created: Apr 20, 2025
-updated: Apr 25, 2025
+updated: May 1, 2025
 ---
 
 # {{ page.title }}
 
-Lakshman, as the story goes, didn't sleep a wink for 14 years. During the day, he'd hunt with his elder brother, the exiled prince Ram, and during the night, he'd stand outside the leaf-hut he'd built for the prince and his wife, keeping an eye out for wandering evil elements. 
+Lakshman<sup>\*</sup>, as the story goes, didn't sleep a wink for 14 years. During the day, he'd hunt with his elder brother, the exiled prince Ram, and during the night, he'd stand outside the leaf-hut he'd built for the prince and his wife, keeping an eye out for wandering evil elements. 
 
 What if you too had your very own kid brother, like Lakshman, constantly keeping vigil outside your door?
 
@@ -31,7 +31,7 @@ In this tutorial, I show you how to use a Raspberry Pi Zero WH computer and a Ca
 
 For the security camera:
 
--  A Raspberry Pi Zero W computer. This little computer board will hold the code that makes the videos of your surroundings. The Raspberry Pi Zero is the smallest computer in the Raspberry Pi stable, and it is good enough for this project.
+-  A Raspberry Pi Zero WH computer. This little computer board will hold the code that makes the videos of your surroundings. The Raspberry Pi Zero is the smallest computer in the Raspberry Pi stable, and it is good enough for this project. The *W* in the name means it is WiFi enabled. The *H* in the name means the header pins are soldered into the Raspberry Pi board. This project does not need the *H* version but I got one just in case I want to use the header pins for something later.
 -  A Raspberry Pi Camera Module 3. For this project, I could've used an older camera module such as the Camera Module 2, which is lighter on the system resources (and the Raspberry Pi Zero hardly has any), but it doesn't support the `libcamera` package, which is going to be the officially supported package now .
 -  A Raspberry Pi official power adapter. Theoretically, any adapter with a microUSB cable that can plug into the Raspberry Pi should work fine. In practice, it's better to get the official power adapter because it's been tested to deliver the exact power that the Raspberry Pi needs.
 -  A microSD card. This tiny card will contain the operating system that your Raspberry Pi will run on.
@@ -40,7 +40,7 @@ To set up the Raspberry Pi:
 
 -  A laptop (or desktop), with a microSD port. If your laptop does not have this port, you need a microSD card reader that you can plug into laptop. After the Raspberry Pi is set up and the camera is working, you'll no longer need the laptop unless you want to access the setup again.
 -  Administrator privileges on the laptop, so that you can download all the required software on it.
--  An internet connection. After the set up is complete and the camera switched on, this project does not need an internet connection unless you want to access the setup again.
+-  An internet connection. After the set up is complete and the camera switched on, this project does not need an internet connection till you access the setup again to transfer video files to another computer.
 
 ## Steps
 
@@ -70,4 +70,8 @@ All figures are in Indian Rupees (INR), and inclusive of GST (goods and service 
 
 ## Alternatives
 
-Any of the plug-and-play security cameras available off the shelf. They're more expensive, but have all the bells and whistles.
+Any of the plug-and-play security cameras available off the shelf. They may or may not be more expensive, and might have all the bells and whistles.
+
+<hr>
+
+\*: Lakshman is a prince of Ayodhya and a younger brother to the heir, Ram, according to the Indian epic, Ramayana. When Ram and his wife Sita were exiled, Lakshman accompanied them to keep guard.

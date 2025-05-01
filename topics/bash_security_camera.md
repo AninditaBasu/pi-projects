@@ -3,7 +3,7 @@ layout: template_generalFiles
 title: Write the bash code for the surveillance camera
 description: Use the inbuilt libcamera package for Raspberry Pi to continuously record the surroundings
 created: Apr 20, 2025
-updated: Apr 25, 2025
+updated: May 1, 2025
 ---
 
 {% include mermaid_security_cam_flowchart.md %}
@@ -39,7 +39,9 @@ The operating system that you installed on the Raspberry Pi already includes `li
 1.  Turn the bash script into an executable file by typing the following command: `chmod +x simplevideo.sh`.
 1.  Run the file by typing the following command: `./simplevideo.sh`. You should start seeing some messages on the screen.
 
-Go to the directory where your videos are being saved (Click the File Manager icon near the top left). To view the a video file, double-click the file.
+Go to the directory where your videos are being saved (Click the File Manager icon near the top left, right next to the Raspberry Pi icon). To view the a video file, double-click the file.
+
+To stop the video recording at any time, in the terminal window, press Ctrl + C. If you see the script automatically start recording again, press Ctrl + C again. (This is expected behaviour. How to handle this behaviour better is explained in [Refine the project](security_camera_refine.md).)
 
 <hr/>
 

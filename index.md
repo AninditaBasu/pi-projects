@@ -6,8 +6,12 @@ title: Pi Projects Home
 <div class="grid-container">
   <div><img src = "images/logo.png" width="50%" /></div>
   <div>
+  <p>These projects assume you've never used a Raspberry Pi before, have little to none programming knowledge, and aren't particularly aligned to tinkering with machines. Like me :penguin:</p>
   <p>Raspberry Pi Zero 2W</p>
-	<ul><li><a href = "topics/security_camera.html">Set up a surveillance camera</a></li></ul>
+	<ul>
+	<li><a href = "topics/security_camera.html">Set up a surveillance camera</a></li>
+	<li>Make a car dashcam (to be written)</li>
+	</ul>
   <p>Raspberry Pi 3B+</p>
 	<ul><li><a href = "topics/photo_frame.html">Build a digital photo frame</a></li></ul>
   <p>Raspberry Pi 4</p>

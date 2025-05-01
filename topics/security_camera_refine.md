@@ -3,7 +3,7 @@ layout: template_generalFiles
 title: Security camera
 description: Surveillance camera with Raspberry Pi Zero and Camera Module 3
 created: Apr 20, 2025
-updated: Apr 20, 2025
+updated: May 1, 2025
 ---
 
 # {{ page.title }}
@@ -12,6 +12,7 @@ Now that your surveillance camera is working, consider the following enhancement
 
 -  [Never lose a frame](#never-lose-a-frame)
 -  [Keep cool](#keep-cool)
+-  [Stop elegantly](stop-elegantly)
 
 ## Never lose a frame
 
@@ -65,3 +66,33 @@ This change slightly reduces how long it takes for the next loop to begin. It is
 ## Keep cool
 
 Security cameras, like Lakshman, don't sleep. This means that the Raspberry Pi computer will be running continuously, days on end. If you live in an area like mine, where summer temperatures can cross 50 degrees centigrade, you'd like to ensure that the camera hanging outside doesn't get too hot (Lakshman was known to be extremely hot-tempered, though). Consider using an [aluminium heat sink](https://www.waveshare.com/zero-heatsink.htm) made specially for Raspberry Pi Zero W.
+
+## Stop elegantly
+
+To stop the bash command that you started with `./simplevideo.sh`, you press Ctrl + C in the terminal window. Oftentimes, you might see that the script automatically start recording again. This happens because of the following line in your script:
+
+```
+libcamera-vid ... &
+wait
+```
+
+`&` puts `libcamera-vid` in the background. `wait` then pauses until *that* background process finishes. `while true` restarts the loop. Endlessly. When you press Ctrl + C, your action sends an interrupt signal (called `SIGINT` in the Debian world) to the foreground process (the `wait` command). But because `libcamera-vid` is running in the background, it may not receive that signal and, therefore, the loop continues and restarts the background recording.
+
+To handle this situation gracefully, set a trap to catch the interrupt signal in the bash script. The modified script should look like this:
+
+```
+#!/bin/bash
+SAVE_PATH="/home/dwarpal/Videos"
+mkdir -p "$SAVE_PATH"
+
+# Trap Ctrl+C (SIGINT)
+trap "echo 'Stopping...'; kill 0; exit" SIGINT
+
+while true; do
+  TIMESTAMP=$(date +%Y%m%d_%H%M%S)
+  libcamera-vid --nopreview --width 640 --height 480 --bitrate 1000000 --timeout 60000 -o "$SAVE_PATH/ve_$TIMESTAMP.h264" &
+  wait
+done
+```
+
+Notice the new bit, which is on lines 4 and 5. `trap ... SIGINT` listens for Ctrl + C. `kill 0` sends a signal to all processes in the current script group so that it kills the background `libcamera-vid` and stops the loop. `exit` stops the script elegantly. `echo` prints a message on the terminal.
