@@ -1,0 +1,1 @@
+[Download WinSCP](https://winscp.net/eng/download.php). If you need to transfer files to and from the Raspberry Pi computer, you need a secure file-transfer client. WinSCP is one such client. 

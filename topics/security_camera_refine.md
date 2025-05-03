@@ -3,7 +3,7 @@ layout: template_generalFiles
 title: Security camera
 description: Surveillance camera with Raspberry Pi Zero and Camera Module 3
 created: Apr 20, 2025
-updated: May 1, 2025
+updated: May 3, 2025
 ---
 
 # {{ page.title }}
@@ -13,6 +13,7 @@ Now that your surveillance camera is working, consider the following enhancement
 -  [Never lose a frame](#never-lose-a-frame)
 -  [Keep cool](#keep-cool)
 -  [Stop elegantly](#stop-elegantly)
+-  [Back up](#back-up)
 
 ## Never lose a frame
 
@@ -96,3 +97,12 @@ done
 ```
 
 Notice the new bit, which is on lines 4 and 5. `trap ... SIGINT` listens for Ctrl + C. `kill 0` sends a signal to all processes in the current script group so that it kills the background `libcamera-vid` and stops the loop. `exit` stops the script elegantly. `echo` prints a message on the terminal.
+
+## Back up
+
+Because this project is about surveillance, I assume you wouldn't want to lose files before you've seen them. The Raspberry Pi Zero is a marvellous computer, but limited resources means that you can't really connect a screen to it and keep viewing the video files without drawing upon too much of its resources. An alternative is to move the files to another computer and view them at leisure.
+
+-  Manually transfer files to a different computer
+-  Automatically transfer files to a cloud storage
+
+(Instructions to be written. Coming soon.)

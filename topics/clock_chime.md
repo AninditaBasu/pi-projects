@@ -3,7 +3,7 @@ layout: template_generalFiles
 title: Clock chimes
 description: Chime on the hour and the half hour
 created: Jan 28, 2025
-updated: Feb 1, 2025
+updated: May 3, 2025
 ---
 
 # {{ page.title }}
@@ -78,3 +78,5 @@ All figures are in Indian Rupees (INR), and inclusive of GST (goods and service 
 ## Alternatives
 
 A battery-operated grandfather clock, like [this one from Titan](https://www.amazon.in/Titan-Classic-Colour-Pendulum-Westminster/dp/B0BDRQMRZY/ref=sr_1_34).
+
+The reason for this project was that I was missing the chimes of the wallclock that we had at my childhood home, and I had spare resources on the Raspberry Pi computer.

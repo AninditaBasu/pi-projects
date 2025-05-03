@@ -3,7 +3,7 @@ layout: template_generalFiles
 title: Security system
 description: Surveillance setup with Raspberry Pi Zero W and Camera Module 3
 created: Apr 20, 2025
-updated: May 1, 2025
+updated: May 3, 2025
 ---
 
 # {{ page.title }}
@@ -12,11 +12,26 @@ Lakshman<sup>\*</sup>, as the story goes, didn't sleep a wink for 14 years. Duri
 
 What if you too had your very own kid brother, like Lakshman, constantly keeping vigil outside your door?
 
-
+<table>
+<tr>
+<th>Interior</th><th>Exterior</th>
+</tr>
+<tr>
+<td>
 <video width="40%" height="40%" controls>
-  <source src="../images/security_camera.mp4" type="video/mp4">
+  <source src="../images/security_cam_interior.mp4" type="video/mp4">
   Your browser does not support the video tag.
-</video> 
+</video>
+</td>
+<td>
+<video width="40%" height="40%" controls>
+  <source src="../images/security_cam_exterior_longshot.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+</td>
+</tr>
+</table>
+ 
 
 In this tutorial, I show you how to use a Raspberry Pi Zero WH computer and a Camera Module 3 to build a surveillance camera. Along the way, I explain how to set up a headless Raspberry Pi computer, and write a bash script on it.
 
@@ -71,6 +86,11 @@ All figures are in Indian Rupees (INR), and inclusive of GST (goods and service 
 ## Alternatives
 
 Any of the plug-and-play security cameras available off the shelf. They may or may not be more expensive, and might have all the bells and whistles.
+
+The push for this project came from two factors:
+
+-  The unavailablity ("temporary", I was told for 3 months before I lost patience) of a branded security camera solution from a well-known telecom company.
+-  My unwillingness to go in for the easily available off-the-shelf security cameras. These are all local brands and do not guarantee good performance.
 
 <hr>
 

@@ -4,7 +4,7 @@ title: Attach Camera Module 3 to Raspberry Pi Zero W
 description: Attach the camera module to the Raspberry Pi Zero by using the golden cable.
 pimodel: Raspberry Pi Zero W
 created: Apr 20, 2025
-updated: Apr 25, 2025
+updated: May 3, 2025
 ---
 
 {% include mermaid_security_cam_flowchart.md %}
@@ -31,7 +31,7 @@ For this project, you must attach the camera module to the {{page.pimodel}} with
 1.  Insert the narrower end of the cable, with the metal connectors facing the bottom side of the Raspberry Pi. Push the clamps down firmly. I took the help of [this YouTube video](https://www.youtube.com/watch?v=uWOlf4aECC8) that shows which clips to pull, push, and connect to.
 1.  Verify that the camera is working as expected:
     1.  Switch on the Raspberry Pi.
-	1.  Open a terminal window and run the following command: `libcamera-jpeg -n -o test.jpg`. You should see several messages being written to the terminal, ending with a message saying that a picture was taken. This means that the camera module was detected and is working fine. <img src = "../images/libcam_test.png" width="50%" />
+	1.  Open a terminal window and run the following command: `libcamera-jpeg -n -o test.jpg`. You should see several messages being written to the terminal, ending with a message saying that a picture was taken. This means that the camera module was detected and is working fine. <img src = "../images/libcam_test.png" width="25%" />
 1.  If you don't see a success message on the terminal, verify that the camera pins are firmly in place. Then, try to use the terminal messages to troubleshoot. An AI agent such as ChatGPT can help.
 1.  If you're not immediately proceeding to the next step, shut down the Raspberry Pi by typing the following command on the terminal: `sudo shutdown -h now`. You should be disconnected from Raspberry Pi and the terminal window should disappear.  Wait till the green light on the Raspberry Pi board stops flashing, and then switch off the power supply.
 

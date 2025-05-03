@@ -6,7 +6,7 @@ pimodel: Raspberry Pi Zero W
 baseos: Debian Bookworm
 pios: Raspberry Pi OS 32-bit (A port of Debian Bookworm with the Raspberry Pi Desktop)
 created: Apr 20, 2025
-updated: May 1, 2025
+updated: May 3, 2025
 ---
 
 {% include mermaid_security_cam_flowchart.md %}
