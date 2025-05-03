@@ -100,9 +100,7 @@ Notice the new bit, which is on lines 4 and 5. `trap ... SIGINT` listens for Ctr
 
 ## Back up
 
-Because this project is about surveillance, I assume you wouldn't want to lose files before you've seen them. The Raspberry Pi Zero is a marvellous computer, but limited resources means that you can't really connect a screen to it and keep viewing the video files without drawing upon too much of its resources. An alternative is to move the files to another computer and view them at leisure.
+Because this project is about surveillance, you wouldn't want to lose files before you've seen them. The Raspberry Pi Zero is a marvellous computer, but its limited resources means that you can't really connect a screen to it and keep viewing the video files without drawing upon too much of its resources. An alternative is to move the files to another computer and view them at leisure.
 
--  Manually transfer files to a different computer
--  Automatically transfer files to a cloud storage
-
-(Instructions to be written. Coming soon.)
+-  Manually transfer the videos to a different computer
+-  Automatically upload the videos to a cloud storage
