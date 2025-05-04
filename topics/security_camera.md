@@ -18,7 +18,7 @@ What if you too had your very own kid brother, like Lakshman, constantly keeping
 </tr>
 <tr>
 <td>
-<video width="40%" height="40%" controls>
+<video width="60%" height="60%" controls>
   <source src="../images/security_cam_interior.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
