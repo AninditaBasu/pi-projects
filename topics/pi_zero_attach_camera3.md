@@ -45,6 +45,6 @@ Because you're logged in through the terminal, you wouldn't be able to "see" the
 1.  On your laptop, open `https://connect.raspberrypi.com/` and sign in.
 1.  On the Devices page, you should see your Raspberry Pi. If you don't, wait for a few minutes and refresh the page.  Then, click **Connect via > Screen sharing**, and wait for a few seconds for the remote session to start. You should now see the Raspberry Pi desktop in your laptop browser.
 1.  Open **File Manager**. It's one of the icons near the top where you see the Raspberry Pi icon. 
-<img src = "../images/raspi_gui_menu.png" width="25%" placement = "break"/>
+    <img src = "../images/raspi_gui_menu.png" width="25%" placement = "break"/>
 1.  In File Manager, go to `home/<your user name>`. You should see a file called `test.jpg`. To view the file, double-click it.
 1.  When done, and if you're not immediately proceeding to the next step, shut down the Raspberry Pi by typing the following command on the terminal: `sudo shutdown -h now`. You should be disconnected from Raspberry Pi and the terminal window should disappear.  Wait till the green light on the Raspberry Pi board stops flashing, and then switch off the power supply.

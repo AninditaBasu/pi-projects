@@ -12,9 +12,9 @@ Lakshman<sup>\*</sup>, as the story goes, didn't sleep a wink for 14 years. Duri
 
 What if you too had your very own kid brother, like Lakshman, constantly keeping vigil outside your door?
 
-<table>
+<table style="width:100%">
 <tr>
-<th>Interior</th><th>Exterior</th>
+<th style="width:30%">Interior</th><th style="width:30%">Exterior</th>
 </tr>
 <tr>
 <td>
@@ -33,7 +33,7 @@ What if you too had your very own kid brother, like Lakshman, constantly keeping
 </table>
  
 
-In this tutorial, I show you how to use a Raspberry Pi Zero WH computer and a Camera Module 3 to build a surveillance camera. Along the way, I explain how to set up a headless Raspberry Pi computer, and write a bash script on it.
+In this tutorial, I show you how to use a Raspberry Pi Zero WH computer and a Camera Module 3 to build a surveillance system. Along the way, I explain how to set up a headless Raspberry Pi computer, and write a bash script on it.
 
 -  [Materials](#materials)
 -  [Steps](#steps)

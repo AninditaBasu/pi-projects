@@ -3,8 +3,10 @@ layout: template_generalFiles
 title: Security camera
 description: Surveillance camera with Raspberry Pi Zero and Camera Module 3
 created: Apr 20, 2025
-updated: May 3, 2025
+updated: May 4, 2025
 ---
+
+{% include mermaid_security_cam_flowchart.md %}
 
 # {{ page.title }}
 
@@ -107,3 +109,40 @@ Because this project is about surveillance, you wouldn't want to lose files befo
 
 ### Manual transfer to another computer
 
+
+
+
+### Automatic upload to a cloud storage
+
+Use the `rclone` package to point to your cloud storage, and then create a cronjob that automatically moves the files from Raspberry Pi to cloud storage at the specified time. This task has several steps.
+
+{% include mermaid_rclone_setup.md %}
+
+1.  Switch on your laptop and install `rclone` on it:
+    1.  Go to the [rclone downloads page](https://rclone.org/downloads/) and download the `.zip` file for your Windows laptop.
+	1.  Extract the content to any folder, for example, `C:/rclone`. Make a note of this folder because you'll need it in a subsequent step.
+1.  Switch on your Raspberry Pi, log into it by using Connect on your laptop, and then open a terminal window on Raspberry and install `rclone` by running the following command commands one after the other:
+    1.  `sudo apt update`: To find all patches and fixes since the last time that the Raspberry Pi was updated
+	1.  `sudo apt upgrade -y`: To download and install the packs identified in the previous step.
+	1.  `sudo apt install rclone -y`: To install `rclone`.
+1.  Connect `rclone` to your cloud store:
+    1.  Start the configuration process by running the following command: `rclone config`.
+	1.  At the first prompt, type `n` (for `New remote`). 
+	1.  Specify a name for the connection, for example, `gdrive`. Make a note of this name because you'll need it soon in a subsequent step.
+	1.  Scroll through the long list that you're presented with and identify the number for the cloud storage service. Then, type the number.
+	1.  Leave the fields for `Client ID` and `Secret` blank by entering nothing and pressing Enter.
+	1.  For the scope of access, enter `1` for full access.
+	1.  Leave the fields for `Root Folder ID` and `Service Account File` blank by entering nothing and pressing Enter.
+	1.  Say `No` to advanced config. Say `No` to auto-config as well. You'll be given a command for authorising `rclone`, for example, `rclone authorize "drive" "abCdE12wfGH3IjKlmNOpQr4"`. Copy that command.
+	1.  Return to your laptop, open the command prompt, and go to the folder where you extracted `rclone` to. Paste the command that you copied from Raspberry Pi. You're given a verification code.
+    1.  Copy the verification code, return to Raspberry Pi, and paste it. You see a confirmation message. If asked whether to configure the setup as a shared drive, respond in the negative. Enter `y`, and then exit the configuration setup by entering `q`.
+1.  Test the connection by running the following commands one after the other. You should see a folder called `rclonetest` in your cloud storage. Before running the commands, replace `gdrive` with the name of your cloud storage. You made a note of this name in a previous step.
+    -  `echo "Testing rclone setup" > testfile.txt`
+	-  `rclone copy testfile.txt gdrive:rclonetest`
+1.  ... still writing ...
+
+
+
+	
+ 
+ 
