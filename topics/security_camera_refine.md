@@ -104,3 +104,6 @@ Because this project is about surveillance, you wouldn't want to lose files befo
 
 -  Manually transfer the videos to a different computer
 -  Automatically upload the videos to a cloud storage
+
+### Manual transfer to another computer
+
