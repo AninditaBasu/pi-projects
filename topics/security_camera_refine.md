@@ -135,7 +135,7 @@ Use the `rclone` package to point to your cloud storage, and then create a cronj
 	1.  Leave the fields for `Root Folder ID` and `Service Account File` blank by entering nothing and pressing Enter.
 	1.  Say `No` to advanced config. Say `No` to auto-config as well. You'll be given a command for authorising `rclone`, for example, `rclone authorize "drive" "abCdE12wfGH3IjKlmNOpQr4"`. Copy that command.
 	1.  Return to your laptop, open the command prompt, and go to the folder where you extracted `rclone` to. Paste the command that you copied from Raspberry Pi. You're given a verification code. 
-	<img src = "../images/rclone_verif_code.png" width="50%" />
+	<img src = "../images/rclone_verif_code.png" width="25%" placement="break"/>
     1.  Copy the verification code, return to the Raspberry Pi terminal, and paste it. You see a confirmation message. If asked whether to configure the setup as a shared drive, respond in the negative. Enter `y`, and then exit the configuration setup by entering `q`.
 1.  Test the connection by running the following commands one after the other. You should see a folder called `rclonetest` in your cloud storage with a file called `testfile.txt` that has a single line saying `Testing rclone setup`. Before running the commands, replace `gdrive` with the name of your cloud storage. You made a note of this name in a previous step.
     -  `echo "Testing rclone setup" > testfile.txt`
